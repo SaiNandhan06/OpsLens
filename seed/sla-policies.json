@@ -1,0 +1,198 @@
+[
+  {
+    "category": "EQUIPMENT",
+    "severity": "HIGH",
+    "ackTargetMinutes": 20,
+    "resolveTargetMinutes": 120,
+    "escalationTeamId": "TEAM-MAINT"
+  },
+  {
+    "category": "EQUIPMENT",
+    "severity": "CRITICAL",
+    "ackTargetMinutes": 10,
+    "resolveTargetMinutes": 60,
+    "escalationTeamId": "TEAM-MAINT"
+  },
+  {
+    "category": "EQUIPMENT",
+    "severity": "MEDIUM",
+    "ackTargetMinutes": 60,
+    "resolveTargetMinutes": 360,
+    "escalationTeamId": "TEAM-MAINT"
+  },
+  {
+    "category": "EQUIPMENT",
+    "severity": "LOW",
+    "ackTargetMinutes": 120,
+    "resolveTargetMinutes": 720,
+    "escalationTeamId": "TEAM-MAINT"
+  },
+  {
+    "category": "SAFETY",
+    "severity": "CRITICAL",
+    "ackTargetMinutes": 5,
+    "resolveTargetMinutes": 30,
+    "escalationTeamId": "TEAM-SAFETY"
+  },
+  {
+    "category": "SAFETY",
+    "severity": "HIGH",
+    "ackTargetMinutes": 15,
+    "resolveTargetMinutes": 90,
+    "escalationTeamId": "TEAM-SAFETY"
+  },
+  {
+    "category": "SAFETY",
+    "severity": "MEDIUM",
+    "ackTargetMinutes": 45,
+    "resolveTargetMinutes": 240,
+    "escalationTeamId": "TEAM-SAFETY"
+  },
+  {
+    "category": "SAFETY",
+    "severity": "LOW",
+    "ackTargetMinutes": 120,
+    "resolveTargetMinutes": 480,
+    "escalationTeamId": "TEAM-SAFETY"
+  },
+  {
+    "category": "FACILITY",
+    "severity": "CRITICAL",
+    "ackTargetMinutes": 15,
+    "resolveTargetMinutes": 60,
+    "escalationTeamId": "TEAM-MAINT"
+  },
+  {
+    "category": "FACILITY",
+    "severity": "HIGH",
+    "ackTargetMinutes": 30,
+    "resolveTargetMinutes": 180,
+    "escalationTeamId": "TEAM-MAINT"
+  },
+  {
+    "category": "FACILITY",
+    "severity": "MEDIUM",
+    "ackTargetMinutes": 60,
+    "resolveTargetMinutes": 360,
+    "escalationTeamId": "TEAM-MAINT"
+  },
+  {
+    "category": "FACILITY",
+    "severity": "LOW",
+    "ackTargetMinutes": 180,
+    "resolveTargetMinutes": 720,
+    "escalationTeamId": "TEAM-MAINT"
+  },
+  {
+    "category": "INVENTORY",
+    "severity": "CRITICAL",
+    "ackTargetMinutes": 15,
+    "resolveTargetMinutes": 90,
+    "escalationTeamId": "TEAM-INVENTORY"
+  },
+  {
+    "category": "INVENTORY",
+    "severity": "HIGH",
+    "ackTargetMinutes": 30,
+    "resolveTargetMinutes": 180,
+    "escalationTeamId": "TEAM-INVENTORY"
+  },
+  {
+    "category": "INVENTORY",
+    "severity": "MEDIUM",
+    "ackTargetMinutes": 60,
+    "resolveTargetMinutes": 360,
+    "escalationTeamId": "TEAM-INVENTORY"
+  },
+  {
+    "category": "INVENTORY",
+    "severity": "LOW",
+    "ackTargetMinutes": 180,
+    "resolveTargetMinutes": 720,
+    "escalationTeamId": "TEAM-INVENTORY"
+  },
+  {
+    "category": "OPERATIONS",
+    "severity": "CRITICAL",
+    "ackTargetMinutes": 10,
+    "resolveTargetMinutes": 60,
+    "escalationTeamId": "TEAM-LOGISTICS"
+  },
+  {
+    "category": "OPERATIONS",
+    "severity": "HIGH",
+    "ackTargetMinutes": 25,
+    "resolveTargetMinutes": 120,
+    "escalationTeamId": "TEAM-LOGISTICS"
+  },
+  {
+    "category": "OPERATIONS",
+    "severity": "MEDIUM",
+    "ackTargetMinutes": 60,
+    "resolveTargetMinutes": 240,
+    "escalationTeamId": "TEAM-LOGISTICS"
+  },
+  {
+    "category": "OPERATIONS",
+    "severity": "LOW",
+    "ackTargetMinutes": 120,
+    "resolveTargetMinutes": 480,
+    "escalationTeamId": "TEAM-LOGISTICS"
+  },
+  {
+    "category": "ENVIRONMENTAL",
+    "severity": "CRITICAL",
+    "ackTargetMinutes": 10,
+    "resolveTargetMinutes": 45,
+    "escalationTeamId": "TEAM-SAFETY"
+  },
+  {
+    "category": "ENVIRONMENTAL",
+    "severity": "HIGH",
+    "ackTargetMinutes": 20,
+    "resolveTargetMinutes": 90,
+    "escalationTeamId": "TEAM-SAFETY"
+  },
+  {
+    "category": "ENVIRONMENTAL",
+    "severity": "MEDIUM",
+    "ackTargetMinutes": 60,
+    "resolveTargetMinutes": 240,
+    "escalationTeamId": "TEAM-SAFETY"
+  },
+  {
+    "category": "ENVIRONMENTAL",
+    "severity": "LOW",
+    "ackTargetMinutes": 120,
+    "resolveTargetMinutes": 480,
+    "escalationTeamId": "TEAM-SAFETY"
+  },
+  {
+    "category": "SECURITY",
+    "severity": "CRITICAL",
+    "ackTargetMinutes": 5,
+    "resolveTargetMinutes": 30,
+    "escalationTeamId": "TEAM-SAFETY"
+  },
+  {
+    "category": "SECURITY",
+    "severity": "HIGH",
+    "ackTargetMinutes": 15,
+    "resolveTargetMinutes": 60,
+    "escalationTeamId": "TEAM-SAFETY"
+  },
+  {
+    "category": "SECURITY",
+    "severity": "MEDIUM",
+    "ackTargetMinutes": 45,
+    "resolveTargetMinutes": 180,
+    "escalationTeamId": "TEAM-SAFETY"
+  },
+  {
+    "category": "SECURITY",
+    "severity": "LOW",
+    "ackTargetMinutes": 90,
+    "resolveTargetMinutes": 360,
+    "escalationTeamId": "TEAM-SAFETY"
+  }
+]

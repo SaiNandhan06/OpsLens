@@ -1,0 +1,34 @@
+[
+  {
+    "tenantId": "north-hub",
+    "name": "North Hub Logistics Facility",
+    "timezone": "Asia/Kolkata",
+    "scoringWeights": {
+      "businessImpact": 0.3,
+      "safetyRisk": 0.25,
+      "slaUrgency": 0.2,
+      "recurrence": 0.15,
+      "downtime": 0.1
+    },
+    "duplicateThreshold": 0.93,
+    "relatedThreshold": 0.86,
+    "dailyTokenBudget": 200000,
+    "createdAt": "2026-08-01T00:00:00.000Z"
+  },
+  {
+    "tenantId": "south-hub",
+    "name": "South Hub Fulfillment Center",
+    "timezone": "Asia/Kolkata",
+    "scoringWeights": {
+      "businessImpact": 0.3,
+      "safetyRisk": 0.25,
+      "slaUrgency": 0.2,
+      "recurrence": 0.15,
+      "downtime": 0.1
+    },
+    "duplicateThreshold": 0.93,
+    "relatedThreshold": 0.86,
+    "dailyTokenBudget": 200000,
+    "createdAt": "2026-08-01T00:00:00.000Z"
+  }
+]

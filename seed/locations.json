@@ -1,0 +1,58 @@
+[
+  {
+    "id": "LOC-DOCK-1",
+    "name": "Dock 1",
+    "type": "DOCK",
+    "zone": "INBOUND",
+    "description": "Inbound Receiving Dock 1"
+  },
+  {
+    "id": "LOC-DOCK-2",
+    "name": "Dock 2",
+    "type": "DOCK",
+    "zone": "INBOUND",
+    "description": "Inbound Receiving Dock 2"
+  },
+  {
+    "id": "LOC-DOCK-3",
+    "name": "Dock 3",
+    "type": "DOCK",
+    "zone": "OUTBOUND",
+    "description": "Outbound Dispatch Dock 3"
+  },
+  {
+    "id": "LOC-DOCK-4",
+    "name": "Dock 4",
+    "type": "DOCK",
+    "zone": "OUTBOUND",
+    "description": "High-Volume Outbound Dispatch Dock 4"
+  },
+  {
+    "id": "LOC-COLD-STORE-A",
+    "name": "Cold Store A",
+    "type": "TEMPERATURE_CONTROLLED",
+    "zone": "PERISHABLE",
+    "description": "Deep Freeze and Chilled Inventory Storage A"
+  },
+  {
+    "id": "LOC-PICK-1",
+    "name": "Pick Zone 1",
+    "type": "MEZZANINE",
+    "zone": "FULFILLMENT",
+    "description": "Fast-Moving Consumer Goods Picking Mezzanine"
+  },
+  {
+    "id": "LOC-PICK-2",
+    "name": "Pick Zone 2",
+    "type": "MEZZANINE",
+    "zone": "FULFILLMENT",
+    "description": "Bulk & Heavy Items Picking Zone"
+  },
+  {
+    "id": "LOC-LOADING-BAY",
+    "name": "Loading Bay",
+    "type": "YARD",
+    "zone": "LOGISTICS",
+    "description": "Primary Freight Staging and Trailer Turnaround Yard"
+  }
+]

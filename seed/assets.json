@@ -1,0 +1,119 @@
+[
+  {
+    "id": "CONV-D4",
+    "name": "Conveyor Belt Dock 4",
+    "locationId": "LOC-DOCK-4",
+    "category": "EQUIPMENT",
+    "criticality": "HIGH",
+    "serialNumber": "CB-2024-D4-88",
+    "manufacturer": "Dematic"
+  },
+  {
+    "id": "CONV-D1",
+    "name": "Conveyor Belt Dock 1",
+    "locationId": "LOC-DOCK-1",
+    "category": "EQUIPMENT",
+    "criticality": "MEDIUM",
+    "serialNumber": "CB-2023-D1-12",
+    "manufacturer": "Dematic"
+  },
+  {
+    "id": "FL-01",
+    "name": "Forklift Crown 01",
+    "locationId": "LOC-LOADING-BAY",
+    "category": "EQUIPMENT",
+    "criticality": "HIGH",
+    "serialNumber": "CRWN-FL-902",
+    "manufacturer": "Crown"
+  },
+  {
+    "id": "FL-02",
+    "name": "Forklift Crown 02",
+    "locationId": "LOC-LOADING-BAY",
+    "category": "EQUIPMENT",
+    "criticality": "MEDIUM",
+    "serialNumber": "CRWN-FL-903",
+    "manufacturer": "Crown"
+  },
+  {
+    "id": "SCAN-PZ1-01",
+    "name": "Barcode Scanner Station 1",
+    "locationId": "LOC-PICK-1",
+    "category": "EQUIPMENT",
+    "criticality": "MEDIUM",
+    "serialNumber": "ZEB-SCN-441",
+    "manufacturer": "Zebra"
+  },
+  {
+    "id": "SCAN-PZ2-01",
+    "name": "Barcode Scanner Station 2",
+    "locationId": "LOC-PICK-2",
+    "category": "EQUIPMENT",
+    "criticality": "MEDIUM",
+    "serialNumber": "ZEB-SCN-442",
+    "manufacturer": "Zebra"
+  },
+  {
+    "id": "COLD-UNIT-A1",
+    "name": "Chiller Unit Cold Store A",
+    "locationId": "LOC-COLD-STORE-A",
+    "category": "FACILITY",
+    "criticality": "HIGH",
+    "serialNumber": "DAIKIN-REF-78",
+    "manufacturer": "Daikin"
+  },
+  {
+    "id": "DOCK-LEV-D2",
+    "name": "Hydraulic Leveler Dock 2",
+    "locationId": "LOC-DOCK-2",
+    "category": "EQUIPMENT",
+    "criticality": "HIGH",
+    "serialNumber": "KEL-LEV-302",
+    "manufacturer": "Kelley"
+  },
+  {
+    "id": "DOCK-LEV-D3",
+    "name": "Hydraulic Leveler Dock 3",
+    "locationId": "LOC-DOCK-3",
+    "category": "EQUIPMENT",
+    "criticality": "MEDIUM",
+    "serialNumber": "KEL-LEV-303",
+    "manufacturer": "Kelley"
+  },
+  {
+    "id": "AGV-01",
+    "name": "Autonomous Mobile Robot 01",
+    "locationId": "LOC-PICK-1",
+    "category": "EQUIPMENT",
+    "criticality": "MEDIUM",
+    "serialNumber": "GEEK-AMR-09",
+    "manufacturer": "Geek+"
+  },
+  {
+    "id": "RACK-A12",
+    "name": "High-Bay Racking System A12",
+    "locationId": "LOC-PICK-2",
+    "category": "FACILITY",
+    "criticality": "HIGH",
+    "serialNumber": "SSI-RCK-12",
+    "manufacturer": "SSI Schaefer"
+  },
+  {
+    "id": "HVAC-WH-MAIN",
+    "name": "Warehouse Main Ventilation HVAC",
+    "locationId": "LOC-LOADING-BAY",
+    "category": "FACILITY",
+    "criticality": "MEDIUM",
+    "serialNumber": "TRANE-HVAC-01",
+    "manufacturer": "Trane"
+  },
+  {
+    "id": "SCALE-LB-01",
+    "name": "Floor Scale Loading Bay",
+    "locationId": "LOC-LOADING-BAY",
+    "category": "EQUIPMENT",
+    "criticality": "LOW",
+    "serialNumber": "METTLER-FL-55",
+    "manufacturer": "Mettler Toledo"
+  }
+]

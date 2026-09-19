@@ -1,0 +1,2722 @@
+[
+  {
+    "id": "01HRX1000INCIDENTTEST00",
+    "tenantId": "north-hub",
+    "title": "Dock 4 conveyor belt motor tripped during morning shift",
+    "description": "Conveyor belt 4 motor tripped once during morning shift. Reset manually and resumed operations.",
+    "status": "RESOLVED",
+    "category": "EQUIPMENT",
+    "severity": "MEDIUM",
+    "priorityScore": 62,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 62,
+        "normalisedValue": 62,
+        "weight": 0.3,
+        "contribution": 18.6,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "safetyRisk": {
+        "rawValue": 62,
+        "normalisedValue": 62,
+        "weight": 0.25,
+        "contribution": 15.5,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "slaUrgency": {
+        "rawValue": 62,
+        "normalisedValue": 62,
+        "weight": 0.2,
+        "contribution": 12.4,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "recurrence": {
+        "rawValue": 62,
+        "normalisedValue": 62,
+        "weight": 0.15,
+        "contribution": 9.3,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "downtime": {
+        "rawValue": 62,
+        "normalisedValue": 62,
+        "weight": 0.1,
+        "contribution": 6.2,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "total": 62
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": "CONV-D4",
+    "locationId": "LOC-DOCK-4",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-09-09T23:30:00.000Z",
+    "resolveDueAt": "2026-09-10T04:30:00.000Z",
+    "acknowledgedAt": "2026-09-09T22:45:00.000Z",
+    "resolvedAt": "2026-09-09T23:08:00.000Z",
+    "closedAt": "2026-09-09T23:08:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "equipment",
+      "medium"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-09T22:30:00.000Z",
+    "updatedAt": "2026-09-09T23:08:00.000Z"
+  },
+  {
+    "id": "01HRX1001INCIDENTTEST01",
+    "tenantId": "north-hub",
+    "title": "Dock 4 conveyor jammed again with burning smell",
+    "description": "Dock 4 conveyor jammed again with burning smell. Unloaded freight backed up for 45 minutes.",
+    "status": "RESOLVED",
+    "category": "EQUIPMENT",
+    "severity": "HIGH",
+    "priorityScore": 84,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 84,
+        "normalisedValue": 84,
+        "weight": 0.3,
+        "contribution": 25.2,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "safetyRisk": {
+        "rawValue": 84,
+        "normalisedValue": 84,
+        "weight": 0.25,
+        "contribution": 21,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "slaUrgency": {
+        "rawValue": 84,
+        "normalisedValue": 84,
+        "weight": 0.2,
+        "contribution": 16.8,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "recurrence": {
+        "rawValue": 84,
+        "normalisedValue": 84,
+        "weight": 0.15,
+        "contribution": 12.6,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "downtime": {
+        "rawValue": 84,
+        "normalisedValue": 84,
+        "weight": 0.1,
+        "contribution": 8.4,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "total": 84
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": "CONV-D4",
+    "locationId": "LOC-DOCK-4",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-09-14T22:50:00.000Z",
+    "resolveDueAt": "2026-09-15T00:30:00.000Z",
+    "acknowledgedAt": "2026-09-14T22:48:00.000Z",
+    "resolvedAt": "2026-09-14T23:55:00.000Z",
+    "closedAt": "2026-09-14T23:55:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "equipment",
+      "high"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-14T22:30:00.000Z",
+    "updatedAt": "2026-09-14T23:55:00.000Z"
+  },
+  {
+    "id": "01HRX1002INCIDENTTEST02",
+    "tenantId": "north-hub",
+    "title": "Dock 4 conveyor stopped again. Packages piling up. Third time this week.",
+    "description": "Dock 4 conveyor stopped again. Packages piling up. Third time this week. Urgent maintenance intervention required before line stalls completely.",
+    "status": "IN_PROGRESS",
+    "category": "EQUIPMENT",
+    "severity": "HIGH",
+    "priorityScore": 92,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 92,
+        "normalisedValue": 92,
+        "weight": 0.3,
+        "contribution": 27.6,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "safetyRisk": {
+        "rawValue": 92,
+        "normalisedValue": 92,
+        "weight": 0.25,
+        "contribution": 23,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "slaUrgency": {
+        "rawValue": 92,
+        "normalisedValue": 92,
+        "weight": 0.2,
+        "contribution": 18.4,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "recurrence": {
+        "rawValue": 92,
+        "normalisedValue": 92,
+        "weight": 0.15,
+        "contribution": 13.8,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "downtime": {
+        "rawValue": 92,
+        "normalisedValue": 92,
+        "weight": 0.1,
+        "contribution": 9.2,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "total": 92
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": "CONV-D4",
+    "locationId": "LOC-DOCK-4",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-09-18T20:26:00.000Z",
+    "resolveDueAt": "2026-09-18T22:06:00.000Z",
+    "acknowledgedAt": "2026-09-18T20:21:00.000Z",
+    "resolvedAt": null,
+    "closedAt": null,
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "equipment",
+      "high"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-18T20:06:00.000Z",
+    "updatedAt": "2026-09-18T20:21:00.000Z"
+  },
+  {
+    "id": "01HRX1003INCIDENTTEST03",
+    "tenantId": "north-hub",
+    "title": "Hydraulic fluid leak near Dock 2 leveler",
+    "description": "Slight oil pooling under leveler plate at Dock 2. Slip hazard.",
+    "status": "RESOLVED",
+    "category": "SAFETY",
+    "severity": "MEDIUM",
+    "priorityScore": 58,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 58,
+        "normalisedValue": 58,
+        "weight": 0.3,
+        "contribution": 17.4,
+        "explanation": "Calculated contribution for SAFETY incident of MEDIUM severity"
+      },
+      "safetyRisk": {
+        "rawValue": 58,
+        "normalisedValue": 58,
+        "weight": 0.25,
+        "contribution": 14.5,
+        "explanation": "Calculated contribution for SAFETY incident of MEDIUM severity"
+      },
+      "slaUrgency": {
+        "rawValue": 58,
+        "normalisedValue": 58,
+        "weight": 0.2,
+        "contribution": 11.6,
+        "explanation": "Calculated contribution for SAFETY incident of MEDIUM severity"
+      },
+      "recurrence": {
+        "rawValue": 58,
+        "normalisedValue": 58,
+        "weight": 0.15,
+        "contribution": 8.7,
+        "explanation": "Calculated contribution for SAFETY incident of MEDIUM severity"
+      },
+      "downtime": {
+        "rawValue": 58,
+        "normalisedValue": 58,
+        "weight": 0.1,
+        "contribution": 5.8,
+        "explanation": "Calculated contribution for SAFETY incident of MEDIUM severity"
+      },
+      "total": 58
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": "DOCK-LEV-D2",
+    "locationId": "LOC-DOCK-2",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-08-20T23:30:00.000Z",
+    "resolveDueAt": "2026-08-21T04:30:00.000Z",
+    "acknowledgedAt": "2026-08-20T22:50:00.000Z",
+    "resolvedAt": "2026-08-21T00:20:00.000Z",
+    "closedAt": "2026-08-21T00:20:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "safety",
+      "medium"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-08-20T22:30:00.000Z",
+    "updatedAt": "2026-08-21T00:20:00.000Z"
+  },
+  {
+    "id": "01HRX1004INCIDENTTEST04",
+    "tenantId": "north-hub",
+    "title": "Forklift FL-01 dead battery blocking central corridor",
+    "description": "Battery completely drained mid-transit on main aisle.",
+    "status": "RESOLVED",
+    "category": "EQUIPMENT",
+    "severity": "HIGH",
+    "priorityScore": 79,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 79,
+        "normalisedValue": 79,
+        "weight": 0.3,
+        "contribution": 23.7,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "safetyRisk": {
+        "rawValue": 79,
+        "normalisedValue": 79,
+        "weight": 0.25,
+        "contribution": 19.75,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "slaUrgency": {
+        "rawValue": 79,
+        "normalisedValue": 79,
+        "weight": 0.2,
+        "contribution": 15.8,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "recurrence": {
+        "rawValue": 79,
+        "normalisedValue": 79,
+        "weight": 0.15,
+        "contribution": 11.85,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "downtime": {
+        "rawValue": 79,
+        "normalisedValue": 79,
+        "weight": 0.1,
+        "contribution": 7.9,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "total": 79
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": "FL-01",
+    "locationId": "LOC-LOADING-BAY",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-08-21T22:50:00.000Z",
+    "resolveDueAt": "2026-08-22T00:30:00.000Z",
+    "acknowledgedAt": "2026-08-21T22:42:00.000Z",
+    "resolvedAt": "2026-08-21T23:35:00.000Z",
+    "closedAt": "2026-08-21T23:35:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "equipment",
+      "high"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-08-21T22:30:00.000Z",
+    "updatedAt": "2026-08-21T23:35:00.000Z"
+  },
+  {
+    "id": "01HRX1005INCIDENTTEST05",
+    "tenantId": "north-hub",
+    "title": "Overhead light fixture flickering and buzzing in Pick Zone 1",
+    "description": "Lighting ballast failing above aisle 4, reducing visibility.",
+    "status": "RESOLVED",
+    "category": "FACILITY",
+    "severity": "LOW",
+    "priorityScore": 32,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 32,
+        "normalisedValue": 32,
+        "weight": 0.3,
+        "contribution": 9.6,
+        "explanation": "Calculated contribution for FACILITY incident of LOW severity"
+      },
+      "safetyRisk": {
+        "rawValue": 32,
+        "normalisedValue": 32,
+        "weight": 0.25,
+        "contribution": 8,
+        "explanation": "Calculated contribution for FACILITY incident of LOW severity"
+      },
+      "slaUrgency": {
+        "rawValue": 32,
+        "normalisedValue": 32,
+        "weight": 0.2,
+        "contribution": 6.4,
+        "explanation": "Calculated contribution for FACILITY incident of LOW severity"
+      },
+      "recurrence": {
+        "rawValue": 32,
+        "normalisedValue": 32,
+        "weight": 0.15,
+        "contribution": 4.8,
+        "explanation": "Calculated contribution for FACILITY incident of LOW severity"
+      },
+      "downtime": {
+        "rawValue": 32,
+        "normalisedValue": 32,
+        "weight": 0.1,
+        "contribution": 3.2,
+        "explanation": "Calculated contribution for FACILITY incident of LOW severity"
+      },
+      "total": 32
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": null,
+    "locationId": "LOC-PICK-1",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-08-22T23:30:00.000Z",
+    "resolveDueAt": "2026-08-23T04:30:00.000Z",
+    "acknowledgedAt": "2026-08-22T23:15:00.000Z",
+    "resolvedAt": "2026-08-23T02:30:00.000Z",
+    "closedAt": "2026-08-23T02:30:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "facility",
+      "low"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-08-22T22:30:00.000Z",
+    "updatedAt": "2026-08-23T02:30:00.000Z"
+  },
+  {
+    "id": "01HRX1006INCIDENTTEST06",
+    "tenantId": "north-hub",
+    "title": "Water puddle from condensation pipe in Cold Store A",
+    "description": "Floor icing risk near doorway in cold store.",
+    "status": "RESOLVED",
+    "category": "ENVIRONMENTAL",
+    "severity": "MEDIUM",
+    "priorityScore": 61,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 61,
+        "normalisedValue": 61,
+        "weight": 0.3,
+        "contribution": 18.3,
+        "explanation": "Calculated contribution for ENVIRONMENTAL incident of MEDIUM severity"
+      },
+      "safetyRisk": {
+        "rawValue": 61,
+        "normalisedValue": 61,
+        "weight": 0.25,
+        "contribution": 15.25,
+        "explanation": "Calculated contribution for ENVIRONMENTAL incident of MEDIUM severity"
+      },
+      "slaUrgency": {
+        "rawValue": 61,
+        "normalisedValue": 61,
+        "weight": 0.2,
+        "contribution": 12.2,
+        "explanation": "Calculated contribution for ENVIRONMENTAL incident of MEDIUM severity"
+      },
+      "recurrence": {
+        "rawValue": 61,
+        "normalisedValue": 61,
+        "weight": 0.15,
+        "contribution": 9.15,
+        "explanation": "Calculated contribution for ENVIRONMENTAL incident of MEDIUM severity"
+      },
+      "downtime": {
+        "rawValue": 61,
+        "normalisedValue": 61,
+        "weight": 0.1,
+        "contribution": 6.1,
+        "explanation": "Calculated contribution for ENVIRONMENTAL incident of MEDIUM severity"
+      },
+      "total": 61
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": "COLD-UNIT-A1",
+    "locationId": "LOC-COLD-STORE-A",
+    "assignedTeamId": "TEAM-SAFETY",
+    "ackDueAt": "2026-08-23T23:30:00.000Z",
+    "resolveDueAt": "2026-08-24T04:30:00.000Z",
+    "acknowledgedAt": "2026-08-23T22:48:00.000Z",
+    "resolvedAt": "2026-08-24T00:05:00.000Z",
+    "closedAt": "2026-08-24T00:05:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "environmental",
+      "medium"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-08-23T22:30:00.000Z",
+    "updatedAt": "2026-08-24T00:05:00.000Z"
+  },
+  {
+    "id": "01HRX1007INCIDENTTEST07",
+    "tenantId": "north-hub",
+    "title": "Barcode scanner SCAN-PZ1-01 unpairing from base station",
+    "description": "Wireless terminal intermittently dropping bluetooth connection.",
+    "status": "RESOLVED",
+    "category": "EQUIPMENT",
+    "severity": "LOW",
+    "priorityScore": 28,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 28,
+        "normalisedValue": 28,
+        "weight": 0.3,
+        "contribution": 8.4,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "safetyRisk": {
+        "rawValue": 28,
+        "normalisedValue": 28,
+        "weight": 0.25,
+        "contribution": 7,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "slaUrgency": {
+        "rawValue": 28,
+        "normalisedValue": 28,
+        "weight": 0.2,
+        "contribution": 5.6,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "recurrence": {
+        "rawValue": 28,
+        "normalisedValue": 28,
+        "weight": 0.15,
+        "contribution": 4.2,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "downtime": {
+        "rawValue": 28,
+        "normalisedValue": 28,
+        "weight": 0.1,
+        "contribution": 2.8,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "total": 28
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": "SCAN-PZ1-01",
+    "locationId": "LOC-PICK-1",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-08-24T23:30:00.000Z",
+    "resolveDueAt": "2026-08-25T04:30:00.000Z",
+    "acknowledgedAt": "2026-08-24T23:05:00.000Z",
+    "resolvedAt": "2026-08-24T23:50:00.000Z",
+    "closedAt": "2026-08-24T23:50:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "equipment",
+      "low"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-08-24T22:30:00.000Z",
+    "updatedAt": "2026-08-24T23:50:00.000Z"
+  },
+  {
+    "id": "01HRX1008INCIDENTTEST08",
+    "tenantId": "north-hub",
+    "title": "Crushed pallet of shampoo bottles in aisle 12",
+    "description": "Racking impact caused liquid soap spill over bottom tier.",
+    "status": "RESOLVED",
+    "category": "INVENTORY",
+    "severity": "MEDIUM",
+    "priorityScore": 55,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 55,
+        "normalisedValue": 55,
+        "weight": 0.3,
+        "contribution": 16.5,
+        "explanation": "Calculated contribution for INVENTORY incident of MEDIUM severity"
+      },
+      "safetyRisk": {
+        "rawValue": 55,
+        "normalisedValue": 55,
+        "weight": 0.25,
+        "contribution": 13.75,
+        "explanation": "Calculated contribution for INVENTORY incident of MEDIUM severity"
+      },
+      "slaUrgency": {
+        "rawValue": 55,
+        "normalisedValue": 55,
+        "weight": 0.2,
+        "contribution": 11,
+        "explanation": "Calculated contribution for INVENTORY incident of MEDIUM severity"
+      },
+      "recurrence": {
+        "rawValue": 55,
+        "normalisedValue": 55,
+        "weight": 0.15,
+        "contribution": 8.25,
+        "explanation": "Calculated contribution for INVENTORY incident of MEDIUM severity"
+      },
+      "downtime": {
+        "rawValue": 55,
+        "normalisedValue": 55,
+        "weight": 0.1,
+        "contribution": 5.5,
+        "explanation": "Calculated contribution for INVENTORY incident of MEDIUM severity"
+      },
+      "total": 55
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": null,
+    "locationId": "LOC-PICK-2",
+    "assignedTeamId": "TEAM-INVENTORY",
+    "ackDueAt": "2026-08-25T23:30:00.000Z",
+    "resolveDueAt": "2026-08-26T04:30:00.000Z",
+    "acknowledgedAt": "2026-08-25T22:55:00.000Z",
+    "resolvedAt": "2026-08-26T00:50:00.000Z",
+    "closedAt": "2026-08-26T00:50:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "inventory",
+      "medium"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-08-25T22:30:00.000Z",
+    "updatedAt": "2026-08-26T00:50:00.000Z"
+  },
+  {
+    "id": "01HRX1009INCIDENTTEST09",
+    "tenantId": "north-hub",
+    "title": "Emergency exit door 4 alarm sensor triggered falsely",
+    "description": "Wind pressure dislodged magnetic contact on exterior exit.",
+    "status": "RESOLVED",
+    "category": "SECURITY",
+    "severity": "LOW",
+    "priorityScore": 35,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 35,
+        "normalisedValue": 35,
+        "weight": 0.3,
+        "contribution": 10.5,
+        "explanation": "Calculated contribution for SECURITY incident of LOW severity"
+      },
+      "safetyRisk": {
+        "rawValue": 35,
+        "normalisedValue": 35,
+        "weight": 0.25,
+        "contribution": 8.75,
+        "explanation": "Calculated contribution for SECURITY incident of LOW severity"
+      },
+      "slaUrgency": {
+        "rawValue": 35,
+        "normalisedValue": 35,
+        "weight": 0.2,
+        "contribution": 7,
+        "explanation": "Calculated contribution for SECURITY incident of LOW severity"
+      },
+      "recurrence": {
+        "rawValue": 35,
+        "normalisedValue": 35,
+        "weight": 0.15,
+        "contribution": 5.25,
+        "explanation": "Calculated contribution for SECURITY incident of LOW severity"
+      },
+      "downtime": {
+        "rawValue": 35,
+        "normalisedValue": 35,
+        "weight": 0.1,
+        "contribution": 3.5,
+        "explanation": "Calculated contribution for SECURITY incident of LOW severity"
+      },
+      "total": 35
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": null,
+    "locationId": "LOC-LOADING-BAY",
+    "assignedTeamId": "TEAM-SAFETY",
+    "ackDueAt": "2026-08-26T23:30:00.000Z",
+    "resolveDueAt": "2026-08-27T04:30:00.000Z",
+    "acknowledgedAt": "2026-08-26T22:40:00.000Z",
+    "resolvedAt": "2026-08-26T23:15:00.000Z",
+    "closedAt": "2026-08-26T23:15:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "security",
+      "low"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-08-26T22:30:00.000Z",
+    "updatedAt": "2026-08-26T23:15:00.000Z"
+  },
+  {
+    "id": "01HRX1010INCIDENTTEST10",
+    "tenantId": "north-hub",
+    "title": "Inbound trailer stuck at Dock 1 with misaligned dock plate",
+    "description": "Dock leveler lip not deploying onto truck bed.",
+    "status": "RESOLVED",
+    "category": "EQUIPMENT",
+    "severity": "HIGH",
+    "priorityScore": 81,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 81,
+        "normalisedValue": 81,
+        "weight": 0.3,
+        "contribution": 24.3,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "safetyRisk": {
+        "rawValue": 81,
+        "normalisedValue": 81,
+        "weight": 0.25,
+        "contribution": 20.25,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "slaUrgency": {
+        "rawValue": 81,
+        "normalisedValue": 81,
+        "weight": 0.2,
+        "contribution": 16.2,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "recurrence": {
+        "rawValue": 81,
+        "normalisedValue": 81,
+        "weight": 0.15,
+        "contribution": 12.15,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "downtime": {
+        "rawValue": 81,
+        "normalisedValue": 81,
+        "weight": 0.1,
+        "contribution": 8.1,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "total": 81
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": "CONV-D1",
+    "locationId": "LOC-DOCK-1",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-08-27T22:50:00.000Z",
+    "resolveDueAt": "2026-08-28T00:30:00.000Z",
+    "acknowledgedAt": "2026-08-27T22:44:00.000Z",
+    "resolvedAt": "2026-08-27T23:45:00.000Z",
+    "closedAt": "2026-08-27T23:45:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "equipment",
+      "high"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-08-27T22:30:00.000Z",
+    "updatedAt": "2026-08-27T23:45:00.000Z"
+  },
+  {
+    "id": "01HRX1011INCIDENTTEST11",
+    "tenantId": "north-hub",
+    "title": "Chiller temperature alert +6C in Cold Store A",
+    "description": "Temperature exceeded 4C threshold for 20 minutes.",
+    "status": "RESOLVED",
+    "category": "FACILITY",
+    "severity": "CRITICAL",
+    "priorityScore": 94,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 94,
+        "normalisedValue": 94,
+        "weight": 0.3,
+        "contribution": 28.2,
+        "explanation": "Calculated contribution for FACILITY incident of CRITICAL severity"
+      },
+      "safetyRisk": {
+        "rawValue": 94,
+        "normalisedValue": 94,
+        "weight": 0.25,
+        "contribution": 23.5,
+        "explanation": "Calculated contribution for FACILITY incident of CRITICAL severity"
+      },
+      "slaUrgency": {
+        "rawValue": 94,
+        "normalisedValue": 94,
+        "weight": 0.2,
+        "contribution": 18.8,
+        "explanation": "Calculated contribution for FACILITY incident of CRITICAL severity"
+      },
+      "recurrence": {
+        "rawValue": 94,
+        "normalisedValue": 94,
+        "weight": 0.15,
+        "contribution": 14.1,
+        "explanation": "Calculated contribution for FACILITY incident of CRITICAL severity"
+      },
+      "downtime": {
+        "rawValue": 94,
+        "normalisedValue": 94,
+        "weight": 0.1,
+        "contribution": 9.4,
+        "explanation": "Calculated contribution for FACILITY incident of CRITICAL severity"
+      },
+      "total": 94
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": "COLD-UNIT-A1",
+    "locationId": "LOC-COLD-STORE-A",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-08-28T22:40:00.000Z",
+    "resolveDueAt": "2026-08-28T23:30:00.000Z",
+    "acknowledgedAt": "2026-08-28T22:38:00.000Z",
+    "resolvedAt": "2026-08-28T23:18:00.000Z",
+    "closedAt": "2026-08-28T23:18:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "facility",
+      "critical"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-08-28T22:30:00.000Z",
+    "updatedAt": "2026-08-28T23:18:00.000Z"
+  },
+  {
+    "id": "01HRX1012INCIDENTTEST12",
+    "tenantId": "north-hub",
+    "title": "Pallet jack wheel seized with shrink wrap",
+    "description": "Heavy plastic wrap wound tightly around right steering roller.",
+    "status": "RESOLVED",
+    "category": "EQUIPMENT",
+    "severity": "LOW",
+    "priorityScore": 25,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 25,
+        "normalisedValue": 25,
+        "weight": 0.3,
+        "contribution": 7.5,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "safetyRisk": {
+        "rawValue": 25,
+        "normalisedValue": 25,
+        "weight": 0.25,
+        "contribution": 6.25,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "slaUrgency": {
+        "rawValue": 25,
+        "normalisedValue": 25,
+        "weight": 0.2,
+        "contribution": 5,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "recurrence": {
+        "rawValue": 25,
+        "normalisedValue": 25,
+        "weight": 0.15,
+        "contribution": 3.75,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "downtime": {
+        "rawValue": 25,
+        "normalisedValue": 25,
+        "weight": 0.1,
+        "contribution": 2.5,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "total": 25
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": null,
+    "locationId": "LOC-PICK-1",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-08-29T23:30:00.000Z",
+    "resolveDueAt": "2026-08-30T04:30:00.000Z",
+    "acknowledgedAt": "2026-08-29T23:00:00.000Z",
+    "resolvedAt": "2026-08-29T23:25:00.000Z",
+    "closedAt": "2026-08-29T23:25:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "equipment",
+      "low"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-08-29T22:30:00.000Z",
+    "updatedAt": "2026-08-29T23:25:00.000Z"
+  },
+  {
+    "id": "01HRX1013INCIDENTTEST13",
+    "tenantId": "north-hub",
+    "title": "Trailer departure delayed due to missing shipping manifest",
+    "description": "Paperwork missing for trailer 402 outbound run.",
+    "status": "RESOLVED",
+    "category": "OPERATIONS",
+    "severity": "MEDIUM",
+    "priorityScore": 50,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 50,
+        "normalisedValue": 50,
+        "weight": 0.3,
+        "contribution": 15,
+        "explanation": "Calculated contribution for OPERATIONS incident of MEDIUM severity"
+      },
+      "safetyRisk": {
+        "rawValue": 50,
+        "normalisedValue": 50,
+        "weight": 0.25,
+        "contribution": 12.5,
+        "explanation": "Calculated contribution for OPERATIONS incident of MEDIUM severity"
+      },
+      "slaUrgency": {
+        "rawValue": 50,
+        "normalisedValue": 50,
+        "weight": 0.2,
+        "contribution": 10,
+        "explanation": "Calculated contribution for OPERATIONS incident of MEDIUM severity"
+      },
+      "recurrence": {
+        "rawValue": 50,
+        "normalisedValue": 50,
+        "weight": 0.15,
+        "contribution": 7.5,
+        "explanation": "Calculated contribution for OPERATIONS incident of MEDIUM severity"
+      },
+      "downtime": {
+        "rawValue": 50,
+        "normalisedValue": 50,
+        "weight": 0.1,
+        "contribution": 5,
+        "explanation": "Calculated contribution for OPERATIONS incident of MEDIUM severity"
+      },
+      "total": 50
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": null,
+    "locationId": "LOC-DOCK-3",
+    "assignedTeamId": "TEAM-LOGISTICS",
+    "ackDueAt": "2026-08-30T23:30:00.000Z",
+    "resolveDueAt": "2026-08-31T04:30:00.000Z",
+    "acknowledgedAt": "2026-08-30T22:45:00.000Z",
+    "resolvedAt": "2026-08-31T00:00:00.000Z",
+    "closedAt": "2026-08-31T00:00:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "operations",
+      "medium"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-08-30T22:30:00.000Z",
+    "updatedAt": "2026-08-31T00:00:00.000Z"
+  },
+  {
+    "id": "01HRX1014INCIDENTTEST14",
+    "tenantId": "north-hub",
+    "title": "High-bay rack upright dented by forklift mast in zone 2",
+    "description": "Structural collision with upright B-14, visible deformation.",
+    "status": "RESOLVED",
+    "category": "SAFETY",
+    "severity": "HIGH",
+    "priorityScore": 88,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 88,
+        "normalisedValue": 88,
+        "weight": 0.3,
+        "contribution": 26.4,
+        "explanation": "Calculated contribution for SAFETY incident of HIGH severity"
+      },
+      "safetyRisk": {
+        "rawValue": 88,
+        "normalisedValue": 88,
+        "weight": 0.25,
+        "contribution": 22,
+        "explanation": "Calculated contribution for SAFETY incident of HIGH severity"
+      },
+      "slaUrgency": {
+        "rawValue": 88,
+        "normalisedValue": 88,
+        "weight": 0.2,
+        "contribution": 17.6,
+        "explanation": "Calculated contribution for SAFETY incident of HIGH severity"
+      },
+      "recurrence": {
+        "rawValue": 88,
+        "normalisedValue": 88,
+        "weight": 0.15,
+        "contribution": 13.2,
+        "explanation": "Calculated contribution for SAFETY incident of HIGH severity"
+      },
+      "downtime": {
+        "rawValue": 88,
+        "normalisedValue": 88,
+        "weight": 0.1,
+        "contribution": 8.8,
+        "explanation": "Calculated contribution for SAFETY incident of HIGH severity"
+      },
+      "total": 88
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": "RACK-A12",
+    "locationId": "LOC-PICK-2",
+    "assignedTeamId": "TEAM-SAFETY",
+    "ackDueAt": "2026-08-31T22:50:00.000Z",
+    "resolveDueAt": "2026-09-01T00:30:00.000Z",
+    "acknowledgedAt": "2026-08-31T22:41:00.000Z",
+    "resolvedAt": "2026-09-01T01:10:00.000Z",
+    "closedAt": "2026-09-01T01:10:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "safety",
+      "high"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-08-31T22:30:00.000Z",
+    "updatedAt": "2026-09-01T01:10:00.000Z"
+  },
+  {
+    "id": "01HRX1015INCIDENTTEST15",
+    "tenantId": "north-hub",
+    "title": "Floor scale SCALE-LB-01 displaying erratic tare weights",
+    "description": "Calibration error showing -15kg with empty platform.",
+    "status": "RESOLVED",
+    "category": "EQUIPMENT",
+    "severity": "LOW",
+    "priorityScore": 22,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 22,
+        "normalisedValue": 22,
+        "weight": 0.3,
+        "contribution": 6.6,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "safetyRisk": {
+        "rawValue": 22,
+        "normalisedValue": 22,
+        "weight": 0.25,
+        "contribution": 5.5,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "slaUrgency": {
+        "rawValue": 22,
+        "normalisedValue": 22,
+        "weight": 0.2,
+        "contribution": 4.4,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "recurrence": {
+        "rawValue": 22,
+        "normalisedValue": 22,
+        "weight": 0.15,
+        "contribution": 3.3,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "downtime": {
+        "rawValue": 22,
+        "normalisedValue": 22,
+        "weight": 0.1,
+        "contribution": 2.2,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "total": 22
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": "SCALE-LB-01",
+    "locationId": "LOC-LOADING-BAY",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-09-01T23:30:00.000Z",
+    "resolveDueAt": "2026-09-02T04:30:00.000Z",
+    "acknowledgedAt": "2026-09-01T23:10:00.000Z",
+    "resolvedAt": "2026-09-02T00:30:00.000Z",
+    "closedAt": "2026-09-02T00:30:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "equipment",
+      "low"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-01T22:30:00.000Z",
+    "updatedAt": "2026-09-02T00:30:00.000Z"
+  },
+  {
+    "id": "01HRX1016INCIDENTTEST16",
+    "tenantId": "north-hub",
+    "title": "AGV-01 obstacle sensor reporting false positives in intersection",
+    "description": "Robot stopping in empty path due to lens smudge.",
+    "status": "RESOLVED",
+    "category": "EQUIPMENT",
+    "severity": "MEDIUM",
+    "priorityScore": 45,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 45,
+        "normalisedValue": 45,
+        "weight": 0.3,
+        "contribution": 13.5,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "safetyRisk": {
+        "rawValue": 45,
+        "normalisedValue": 45,
+        "weight": 0.25,
+        "contribution": 11.25,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "slaUrgency": {
+        "rawValue": 45,
+        "normalisedValue": 45,
+        "weight": 0.2,
+        "contribution": 9,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "recurrence": {
+        "rawValue": 45,
+        "normalisedValue": 45,
+        "weight": 0.15,
+        "contribution": 6.75,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "downtime": {
+        "rawValue": 45,
+        "normalisedValue": 45,
+        "weight": 0.1,
+        "contribution": 4.5,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "total": 45
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": "AGV-01",
+    "locationId": "LOC-PICK-1",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-09-02T23:30:00.000Z",
+    "resolveDueAt": "2026-09-03T04:30:00.000Z",
+    "acknowledgedAt": "2026-09-02T22:50:00.000Z",
+    "resolvedAt": "2026-09-02T23:20:00.000Z",
+    "closedAt": "2026-09-02T23:20:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "equipment",
+      "medium"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-02T22:30:00.000Z",
+    "updatedAt": "2026-09-02T23:20:00.000Z"
+  },
+  {
+    "id": "01HRX1017INCIDENTTEST17",
+    "tenantId": "north-hub",
+    "title": "Broken wooden pallet splinter injured picker hand",
+    "description": "First aid required for minor hand laceration from rough wood.",
+    "status": "RESOLVED",
+    "category": "SAFETY",
+    "severity": "MEDIUM",
+    "priorityScore": 65,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 65,
+        "normalisedValue": 65,
+        "weight": 0.3,
+        "contribution": 19.5,
+        "explanation": "Calculated contribution for SAFETY incident of MEDIUM severity"
+      },
+      "safetyRisk": {
+        "rawValue": 65,
+        "normalisedValue": 65,
+        "weight": 0.25,
+        "contribution": 16.25,
+        "explanation": "Calculated contribution for SAFETY incident of MEDIUM severity"
+      },
+      "slaUrgency": {
+        "rawValue": 65,
+        "normalisedValue": 65,
+        "weight": 0.2,
+        "contribution": 13,
+        "explanation": "Calculated contribution for SAFETY incident of MEDIUM severity"
+      },
+      "recurrence": {
+        "rawValue": 65,
+        "normalisedValue": 65,
+        "weight": 0.15,
+        "contribution": 9.75,
+        "explanation": "Calculated contribution for SAFETY incident of MEDIUM severity"
+      },
+      "downtime": {
+        "rawValue": 65,
+        "normalisedValue": 65,
+        "weight": 0.1,
+        "contribution": 6.5,
+        "explanation": "Calculated contribution for SAFETY incident of MEDIUM severity"
+      },
+      "total": 65
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": null,
+    "locationId": "LOC-PICK-1",
+    "assignedTeamId": "TEAM-SAFETY",
+    "ackDueAt": "2026-09-03T23:30:00.000Z",
+    "resolveDueAt": "2026-09-04T04:30:00.000Z",
+    "acknowledgedAt": "2026-09-03T22:35:00.000Z",
+    "resolvedAt": "2026-09-03T23:10:00.000Z",
+    "closedAt": "2026-09-03T23:10:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "safety",
+      "medium"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-03T22:30:00.000Z",
+    "updatedAt": "2026-09-03T23:10:00.000Z"
+  },
+  {
+    "id": "01HRX1018INCIDENTTEST18",
+    "tenantId": "north-hub",
+    "title": "Dock 3 overhead door jammed halfway open",
+    "description": "Tension spring binding on right vertical track.",
+    "status": "RESOLVED",
+    "category": "FACILITY",
+    "severity": "HIGH",
+    "priorityScore": 76,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 76,
+        "normalisedValue": 76,
+        "weight": 0.3,
+        "contribution": 22.8,
+        "explanation": "Calculated contribution for FACILITY incident of HIGH severity"
+      },
+      "safetyRisk": {
+        "rawValue": 76,
+        "normalisedValue": 76,
+        "weight": 0.25,
+        "contribution": 19,
+        "explanation": "Calculated contribution for FACILITY incident of HIGH severity"
+      },
+      "slaUrgency": {
+        "rawValue": 76,
+        "normalisedValue": 76,
+        "weight": 0.2,
+        "contribution": 15.2,
+        "explanation": "Calculated contribution for FACILITY incident of HIGH severity"
+      },
+      "recurrence": {
+        "rawValue": 76,
+        "normalisedValue": 76,
+        "weight": 0.15,
+        "contribution": 11.4,
+        "explanation": "Calculated contribution for FACILITY incident of HIGH severity"
+      },
+      "downtime": {
+        "rawValue": 76,
+        "normalisedValue": 76,
+        "weight": 0.1,
+        "contribution": 7.6,
+        "explanation": "Calculated contribution for FACILITY incident of HIGH severity"
+      },
+      "total": 76
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": "DOCK-LEV-D3",
+    "locationId": "LOC-DOCK-3",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-09-04T22:50:00.000Z",
+    "resolveDueAt": "2026-09-05T00:30:00.000Z",
+    "acknowledgedAt": "2026-09-04T22:52:00.000Z",
+    "resolvedAt": "2026-09-05T00:08:00.000Z",
+    "closedAt": "2026-09-05T00:08:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "facility",
+      "high"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-04T22:30:00.000Z",
+    "updatedAt": "2026-09-05T00:08:00.000Z"
+  },
+  {
+    "id": "01HRX1019INCIDENTTEST19",
+    "tenantId": "north-hub",
+    "title": "HVAC unit making loud screeching sound in warehouse bay",
+    "description": "Bearing squeal from central fan unit.",
+    "status": "RESOLVED",
+    "category": "FACILITY",
+    "severity": "LOW",
+    "priorityScore": 30,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 30,
+        "normalisedValue": 30,
+        "weight": 0.3,
+        "contribution": 9,
+        "explanation": "Calculated contribution for FACILITY incident of LOW severity"
+      },
+      "safetyRisk": {
+        "rawValue": 30,
+        "normalisedValue": 30,
+        "weight": 0.25,
+        "contribution": 7.5,
+        "explanation": "Calculated contribution for FACILITY incident of LOW severity"
+      },
+      "slaUrgency": {
+        "rawValue": 30,
+        "normalisedValue": 30,
+        "weight": 0.2,
+        "contribution": 6,
+        "explanation": "Calculated contribution for FACILITY incident of LOW severity"
+      },
+      "recurrence": {
+        "rawValue": 30,
+        "normalisedValue": 30,
+        "weight": 0.15,
+        "contribution": 4.5,
+        "explanation": "Calculated contribution for FACILITY incident of LOW severity"
+      },
+      "downtime": {
+        "rawValue": 30,
+        "normalisedValue": 30,
+        "weight": 0.1,
+        "contribution": 3,
+        "explanation": "Calculated contribution for FACILITY incident of LOW severity"
+      },
+      "total": 30
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": "HVAC-WH-MAIN",
+    "locationId": "LOC-LOADING-BAY",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-09-05T23:30:00.000Z",
+    "resolveDueAt": "2026-09-06T04:30:00.000Z",
+    "acknowledgedAt": "2026-09-05T23:20:00.000Z",
+    "resolvedAt": "2026-09-06T03:30:00.000Z",
+    "closedAt": "2026-09-06T03:30:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "facility",
+      "low"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-05T22:30:00.000Z",
+    "updatedAt": "2026-09-06T03:30:00.000Z"
+  },
+  {
+    "id": "01HRX1020INCIDENTTEST20",
+    "tenantId": "north-hub",
+    "title": "Corrugated cartons collapsed in mezzanine staging",
+    "description": "Overstacked boxes fell, blocking walkway.",
+    "status": "RESOLVED",
+    "category": "OPERATIONS",
+    "severity": "LOW",
+    "priorityScore": 34,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 34,
+        "normalisedValue": 34,
+        "weight": 0.3,
+        "contribution": 10.2,
+        "explanation": "Calculated contribution for OPERATIONS incident of LOW severity"
+      },
+      "safetyRisk": {
+        "rawValue": 34,
+        "normalisedValue": 34,
+        "weight": 0.25,
+        "contribution": 8.5,
+        "explanation": "Calculated contribution for OPERATIONS incident of LOW severity"
+      },
+      "slaUrgency": {
+        "rawValue": 34,
+        "normalisedValue": 34,
+        "weight": 0.2,
+        "contribution": 6.8,
+        "explanation": "Calculated contribution for OPERATIONS incident of LOW severity"
+      },
+      "recurrence": {
+        "rawValue": 34,
+        "normalisedValue": 34,
+        "weight": 0.15,
+        "contribution": 5.1,
+        "explanation": "Calculated contribution for OPERATIONS incident of LOW severity"
+      },
+      "downtime": {
+        "rawValue": 34,
+        "normalisedValue": 34,
+        "weight": 0.1,
+        "contribution": 3.4,
+        "explanation": "Calculated contribution for OPERATIONS incident of LOW severity"
+      },
+      "total": 34
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": null,
+    "locationId": "LOC-PICK-1",
+    "assignedTeamId": "TEAM-LOGISTICS",
+    "ackDueAt": "2026-09-06T23:30:00.000Z",
+    "resolveDueAt": "2026-09-07T04:30:00.000Z",
+    "acknowledgedAt": "2026-09-06T22:45:00.000Z",
+    "resolvedAt": "2026-09-06T23:15:00.000Z",
+    "closedAt": "2026-09-06T23:15:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "operations",
+      "low"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-06T22:30:00.000Z",
+    "updatedAt": "2026-09-06T23:15:00.000Z"
+  },
+  {
+    "id": "01HRX1021INCIDENTTEST21",
+    "tenantId": "north-hub",
+    "title": "Pedestrian walkway barrier loose in cross-aisle",
+    "description": "Yellow safety guardrail bolts sheared off.",
+    "status": "RESOLVED",
+    "category": "SAFETY",
+    "severity": "HIGH",
+    "priorityScore": 78,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 78,
+        "normalisedValue": 78,
+        "weight": 0.3,
+        "contribution": 23.4,
+        "explanation": "Calculated contribution for SAFETY incident of HIGH severity"
+      },
+      "safetyRisk": {
+        "rawValue": 78,
+        "normalisedValue": 78,
+        "weight": 0.25,
+        "contribution": 19.5,
+        "explanation": "Calculated contribution for SAFETY incident of HIGH severity"
+      },
+      "slaUrgency": {
+        "rawValue": 78,
+        "normalisedValue": 78,
+        "weight": 0.2,
+        "contribution": 15.6,
+        "explanation": "Calculated contribution for SAFETY incident of HIGH severity"
+      },
+      "recurrence": {
+        "rawValue": 78,
+        "normalisedValue": 78,
+        "weight": 0.15,
+        "contribution": 11.7,
+        "explanation": "Calculated contribution for SAFETY incident of HIGH severity"
+      },
+      "downtime": {
+        "rawValue": 78,
+        "normalisedValue": 78,
+        "weight": 0.1,
+        "contribution": 7.8,
+        "explanation": "Calculated contribution for SAFETY incident of HIGH severity"
+      },
+      "total": 78
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": null,
+    "locationId": "LOC-LOADING-BAY",
+    "assignedTeamId": "TEAM-SAFETY",
+    "ackDueAt": "2026-09-07T22:50:00.000Z",
+    "resolveDueAt": "2026-09-08T00:30:00.000Z",
+    "acknowledgedAt": "2026-09-07T22:40:00.000Z",
+    "resolvedAt": "2026-09-07T23:40:00.000Z",
+    "closedAt": "2026-09-07T23:40:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "safety",
+      "high"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-07T22:30:00.000Z",
+    "updatedAt": "2026-09-07T23:40:00.000Z"
+  },
+  {
+    "id": "01HRX1022INCIDENTTEST22",
+    "tenantId": "north-hub",
+    "title": "Barcode scanner battery dead and charger dock dark",
+    "description": "Power strip tripped at packing bench 6.",
+    "status": "RESOLVED",
+    "category": "EQUIPMENT",
+    "severity": "LOW",
+    "priorityScore": 20,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 20,
+        "normalisedValue": 20,
+        "weight": 0.3,
+        "contribution": 6,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "safetyRisk": {
+        "rawValue": 20,
+        "normalisedValue": 20,
+        "weight": 0.25,
+        "contribution": 5,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "slaUrgency": {
+        "rawValue": 20,
+        "normalisedValue": 20,
+        "weight": 0.2,
+        "contribution": 4,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "recurrence": {
+        "rawValue": 20,
+        "normalisedValue": 20,
+        "weight": 0.15,
+        "contribution": 3,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "downtime": {
+        "rawValue": 20,
+        "normalisedValue": 20,
+        "weight": 0.1,
+        "contribution": 2,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "total": 20
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": "SCAN-PZ2-01",
+    "locationId": "LOC-PICK-2",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-09-08T23:30:00.000Z",
+    "resolveDueAt": "2026-09-09T04:30:00.000Z",
+    "acknowledgedAt": "2026-09-08T22:55:00.000Z",
+    "resolvedAt": "2026-09-08T23:10:00.000Z",
+    "closedAt": "2026-09-08T23:10:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "equipment",
+      "low"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-08T22:30:00.000Z",
+    "updatedAt": "2026-09-08T23:10:00.000Z"
+  },
+  {
+    "id": "01HRX1023INCIDENTTEST23",
+    "tenantId": "north-hub",
+    "title": "Oil sheen spotted on asphalt near storm drain",
+    "description": "Small sheen likely from delivery van engine.",
+    "status": "RESOLVED",
+    "category": "ENVIRONMENTAL",
+    "severity": "MEDIUM",
+    "priorityScore": 60,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 60,
+        "normalisedValue": 60,
+        "weight": 0.3,
+        "contribution": 18,
+        "explanation": "Calculated contribution for ENVIRONMENTAL incident of MEDIUM severity"
+      },
+      "safetyRisk": {
+        "rawValue": 60,
+        "normalisedValue": 60,
+        "weight": 0.25,
+        "contribution": 15,
+        "explanation": "Calculated contribution for ENVIRONMENTAL incident of MEDIUM severity"
+      },
+      "slaUrgency": {
+        "rawValue": 60,
+        "normalisedValue": 60,
+        "weight": 0.2,
+        "contribution": 12,
+        "explanation": "Calculated contribution for ENVIRONMENTAL incident of MEDIUM severity"
+      },
+      "recurrence": {
+        "rawValue": 60,
+        "normalisedValue": 60,
+        "weight": 0.15,
+        "contribution": 9,
+        "explanation": "Calculated contribution for ENVIRONMENTAL incident of MEDIUM severity"
+      },
+      "downtime": {
+        "rawValue": 60,
+        "normalisedValue": 60,
+        "weight": 0.1,
+        "contribution": 6,
+        "explanation": "Calculated contribution for ENVIRONMENTAL incident of MEDIUM severity"
+      },
+      "total": 60
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": null,
+    "locationId": "LOC-LOADING-BAY",
+    "assignedTeamId": "TEAM-SAFETY",
+    "ackDueAt": "2026-09-10T23:30:00.000Z",
+    "resolveDueAt": "2026-09-11T04:30:00.000Z",
+    "acknowledgedAt": "2026-09-10T22:45:00.000Z",
+    "resolvedAt": "2026-09-10T23:50:00.000Z",
+    "closedAt": "2026-09-10T23:50:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "environmental",
+      "medium"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-10T22:30:00.000Z",
+    "updatedAt": "2026-09-10T23:50:00.000Z"
+  },
+  {
+    "id": "01HRX1024INCIDENTTEST24",
+    "tenantId": "north-hub",
+    "title": "Dock 2 leveler failing to lower smoothly",
+    "description": "Hydraulic stutter during downward travel under load.",
+    "status": "RESOLVED",
+    "category": "EQUIPMENT",
+    "severity": "MEDIUM",
+    "priorityScore": 64,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 64,
+        "normalisedValue": 64,
+        "weight": 0.3,
+        "contribution": 19.2,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "safetyRisk": {
+        "rawValue": 64,
+        "normalisedValue": 64,
+        "weight": 0.25,
+        "contribution": 16,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "slaUrgency": {
+        "rawValue": 64,
+        "normalisedValue": 64,
+        "weight": 0.2,
+        "contribution": 12.8,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "recurrence": {
+        "rawValue": 64,
+        "normalisedValue": 64,
+        "weight": 0.15,
+        "contribution": 9.6,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "downtime": {
+        "rawValue": 64,
+        "normalisedValue": 64,
+        "weight": 0.1,
+        "contribution": 6.4,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "total": 64
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": "DOCK-LEV-D2",
+    "locationId": "LOC-DOCK-2",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-09-11T23:30:00.000Z",
+    "resolveDueAt": "2026-09-12T04:30:00.000Z",
+    "acknowledgedAt": "2026-09-11T22:52:00.000Z",
+    "resolvedAt": "2026-09-12T00:15:00.000Z",
+    "closedAt": "2026-09-12T00:15:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "equipment",
+      "medium"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-11T22:30:00.000Z",
+    "updatedAt": "2026-09-12T00:15:00.000Z"
+  },
+  {
+    "id": "01HRX1025INCIDENTTEST25",
+    "tenantId": "north-hub",
+    "title": "Pallet jack FL-02 steering pulling hard right",
+    "description": "Operator reported tight steering resistance when loaded.",
+    "status": "RESOLVED",
+    "category": "EQUIPMENT",
+    "severity": "MEDIUM",
+    "priorityScore": 56,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 56,
+        "normalisedValue": 56,
+        "weight": 0.3,
+        "contribution": 16.8,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "safetyRisk": {
+        "rawValue": 56,
+        "normalisedValue": 56,
+        "weight": 0.25,
+        "contribution": 14,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "slaUrgency": {
+        "rawValue": 56,
+        "normalisedValue": 56,
+        "weight": 0.2,
+        "contribution": 11.2,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "recurrence": {
+        "rawValue": 56,
+        "normalisedValue": 56,
+        "weight": 0.15,
+        "contribution": 8.4,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "downtime": {
+        "rawValue": 56,
+        "normalisedValue": 56,
+        "weight": 0.1,
+        "contribution": 5.6,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "total": 56
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": "FL-02",
+    "locationId": "LOC-LOADING-BAY",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-09-12T23:30:00.000Z",
+    "resolveDueAt": "2026-09-13T04:30:00.000Z",
+    "acknowledgedAt": "2026-09-12T22:50:00.000Z",
+    "resolvedAt": "2026-09-12T23:55:00.000Z",
+    "closedAt": "2026-09-12T23:55:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "equipment",
+      "medium"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-12T22:30:00.000Z",
+    "updatedAt": "2026-09-12T23:55:00.000Z"
+  },
+  {
+    "id": "01HRX1026INCIDENTTEST26",
+    "tenantId": "north-hub",
+    "title": "Fire extinguisher inspection tag expired in zone 1",
+    "description": "Monthly tag check overdue by 3 days.",
+    "status": "RESOLVED",
+    "category": "SAFETY",
+    "severity": "LOW",
+    "priorityScore": 30,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 30,
+        "normalisedValue": 30,
+        "weight": 0.3,
+        "contribution": 9,
+        "explanation": "Calculated contribution for SAFETY incident of LOW severity"
+      },
+      "safetyRisk": {
+        "rawValue": 30,
+        "normalisedValue": 30,
+        "weight": 0.25,
+        "contribution": 7.5,
+        "explanation": "Calculated contribution for SAFETY incident of LOW severity"
+      },
+      "slaUrgency": {
+        "rawValue": 30,
+        "normalisedValue": 30,
+        "weight": 0.2,
+        "contribution": 6,
+        "explanation": "Calculated contribution for SAFETY incident of LOW severity"
+      },
+      "recurrence": {
+        "rawValue": 30,
+        "normalisedValue": 30,
+        "weight": 0.15,
+        "contribution": 4.5,
+        "explanation": "Calculated contribution for SAFETY incident of LOW severity"
+      },
+      "downtime": {
+        "rawValue": 30,
+        "normalisedValue": 30,
+        "weight": 0.1,
+        "contribution": 3,
+        "explanation": "Calculated contribution for SAFETY incident of LOW severity"
+      },
+      "total": 30
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": null,
+    "locationId": "LOC-PICK-1",
+    "assignedTeamId": "TEAM-SAFETY",
+    "ackDueAt": "2026-09-13T23:30:00.000Z",
+    "resolveDueAt": "2026-09-14T04:30:00.000Z",
+    "acknowledgedAt": "2026-09-13T23:00:00.000Z",
+    "resolvedAt": "2026-09-14T00:00:00.000Z",
+    "closedAt": "2026-09-14T00:00:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "safety",
+      "low"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-13T22:30:00.000Z",
+    "updatedAt": "2026-09-14T00:00:00.000Z"
+  },
+  {
+    "id": "01HRX1027INCIDENTTEST27",
+    "tenantId": "north-hub",
+    "title": "Dock 1 conveyor emergency stop button stuck pressed in",
+    "description": "Mechanical latch on e-stop button broken.",
+    "status": "RESOLVED",
+    "category": "EQUIPMENT",
+    "severity": "MEDIUM",
+    "priorityScore": 62,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 62,
+        "normalisedValue": 62,
+        "weight": 0.3,
+        "contribution": 18.6,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "safetyRisk": {
+        "rawValue": 62,
+        "normalisedValue": 62,
+        "weight": 0.25,
+        "contribution": 15.5,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "slaUrgency": {
+        "rawValue": 62,
+        "normalisedValue": 62,
+        "weight": 0.2,
+        "contribution": 12.4,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "recurrence": {
+        "rawValue": 62,
+        "normalisedValue": 62,
+        "weight": 0.15,
+        "contribution": 9.3,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "downtime": {
+        "rawValue": 62,
+        "normalisedValue": 62,
+        "weight": 0.1,
+        "contribution": 6.2,
+        "explanation": "Calculated contribution for EQUIPMENT incident of MEDIUM severity"
+      },
+      "total": 62
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": "CONV-D1",
+    "locationId": "LOC-DOCK-1",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-09-14T23:30:00.000Z",
+    "resolveDueAt": "2026-09-15T04:30:00.000Z",
+    "acknowledgedAt": "2026-09-14T22:45:00.000Z",
+    "resolvedAt": "2026-09-14T23:15:00.000Z",
+    "closedAt": "2026-09-14T23:15:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "equipment",
+      "medium"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-14T22:30:00.000Z",
+    "updatedAt": "2026-09-14T23:15:00.000Z"
+  },
+  {
+    "id": "01HRX1028INCIDENTTEST28",
+    "tenantId": "north-hub",
+    "title": "Pallet of vegetable oil punctured by forklift tine",
+    "description": "20 liters of cooking oil leaking onto bay floor.",
+    "status": "RESOLVED",
+    "category": "INVENTORY",
+    "severity": "HIGH",
+    "priorityScore": 82,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 82,
+        "normalisedValue": 82,
+        "weight": 0.3,
+        "contribution": 24.6,
+        "explanation": "Calculated contribution for INVENTORY incident of HIGH severity"
+      },
+      "safetyRisk": {
+        "rawValue": 82,
+        "normalisedValue": 82,
+        "weight": 0.25,
+        "contribution": 20.5,
+        "explanation": "Calculated contribution for INVENTORY incident of HIGH severity"
+      },
+      "slaUrgency": {
+        "rawValue": 82,
+        "normalisedValue": 82,
+        "weight": 0.2,
+        "contribution": 16.4,
+        "explanation": "Calculated contribution for INVENTORY incident of HIGH severity"
+      },
+      "recurrence": {
+        "rawValue": 82,
+        "normalisedValue": 82,
+        "weight": 0.15,
+        "contribution": 12.3,
+        "explanation": "Calculated contribution for INVENTORY incident of HIGH severity"
+      },
+      "downtime": {
+        "rawValue": 82,
+        "normalisedValue": 82,
+        "weight": 0.1,
+        "contribution": 8.2,
+        "explanation": "Calculated contribution for INVENTORY incident of HIGH severity"
+      },
+      "total": 82
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": null,
+    "locationId": "LOC-LOADING-BAY",
+    "assignedTeamId": "TEAM-INVENTORY",
+    "ackDueAt": "2026-09-15T22:50:00.000Z",
+    "resolveDueAt": "2026-09-16T00:30:00.000Z",
+    "acknowledgedAt": "2026-09-15T22:40:00.000Z",
+    "resolvedAt": "2026-09-15T23:45:00.000Z",
+    "closedAt": "2026-09-15T23:45:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "inventory",
+      "high"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-15T22:30:00.000Z",
+    "updatedAt": "2026-09-15T23:45:00.000Z"
+  },
+  {
+    "id": "01HRX1029INCIDENTTEST29",
+    "tenantId": "north-hub",
+    "title": "Visitor without high-vis vest roaming loading bay",
+    "description": "Third-party driver walked past safety line without PPE.",
+    "status": "RESOLVED",
+    "category": "SECURITY",
+    "severity": "MEDIUM",
+    "priorityScore": 58,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 58,
+        "normalisedValue": 58,
+        "weight": 0.3,
+        "contribution": 17.4,
+        "explanation": "Calculated contribution for SECURITY incident of MEDIUM severity"
+      },
+      "safetyRisk": {
+        "rawValue": 58,
+        "normalisedValue": 58,
+        "weight": 0.25,
+        "contribution": 14.5,
+        "explanation": "Calculated contribution for SECURITY incident of MEDIUM severity"
+      },
+      "slaUrgency": {
+        "rawValue": 58,
+        "normalisedValue": 58,
+        "weight": 0.2,
+        "contribution": 11.6,
+        "explanation": "Calculated contribution for SECURITY incident of MEDIUM severity"
+      },
+      "recurrence": {
+        "rawValue": 58,
+        "normalisedValue": 58,
+        "weight": 0.15,
+        "contribution": 8.7,
+        "explanation": "Calculated contribution for SECURITY incident of MEDIUM severity"
+      },
+      "downtime": {
+        "rawValue": 58,
+        "normalisedValue": 58,
+        "weight": 0.1,
+        "contribution": 5.8,
+        "explanation": "Calculated contribution for SECURITY incident of MEDIUM severity"
+      },
+      "total": 58
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": null,
+    "locationId": "LOC-LOADING-BAY",
+    "assignedTeamId": "TEAM-SAFETY",
+    "ackDueAt": "2026-09-15T23:30:00.000Z",
+    "resolveDueAt": "2026-09-16T04:30:00.000Z",
+    "acknowledgedAt": "2026-09-15T22:35:00.000Z",
+    "resolvedAt": "2026-09-15T22:55:00.000Z",
+    "closedAt": "2026-09-15T22:55:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "security",
+      "medium"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-15T22:30:00.000Z",
+    "updatedAt": "2026-09-15T22:55:00.000Z"
+  },
+  {
+    "id": "01HRX1030INCIDENTTEST30",
+    "tenantId": "north-hub",
+    "title": "Chiller door gasket torn on Cold Store A",
+    "description": "Rubber seal damaged, cold air draft escaping.",
+    "status": "RESOLVED",
+    "category": "FACILITY",
+    "severity": "MEDIUM",
+    "priorityScore": 63,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 63,
+        "normalisedValue": 63,
+        "weight": 0.3,
+        "contribution": 18.9,
+        "explanation": "Calculated contribution for FACILITY incident of MEDIUM severity"
+      },
+      "safetyRisk": {
+        "rawValue": 63,
+        "normalisedValue": 63,
+        "weight": 0.25,
+        "contribution": 15.75,
+        "explanation": "Calculated contribution for FACILITY incident of MEDIUM severity"
+      },
+      "slaUrgency": {
+        "rawValue": 63,
+        "normalisedValue": 63,
+        "weight": 0.2,
+        "contribution": 12.6,
+        "explanation": "Calculated contribution for FACILITY incident of MEDIUM severity"
+      },
+      "recurrence": {
+        "rawValue": 63,
+        "normalisedValue": 63,
+        "weight": 0.15,
+        "contribution": 9.45,
+        "explanation": "Calculated contribution for FACILITY incident of MEDIUM severity"
+      },
+      "downtime": {
+        "rawValue": 63,
+        "normalisedValue": 63,
+        "weight": 0.1,
+        "contribution": 6.3,
+        "explanation": "Calculated contribution for FACILITY incident of MEDIUM severity"
+      },
+      "total": 63
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": "COLD-UNIT-A1",
+    "locationId": "LOC-COLD-STORE-A",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-09-16T23:30:00.000Z",
+    "resolveDueAt": "2026-09-17T04:30:00.000Z",
+    "acknowledgedAt": "2026-09-16T23:00:00.000Z",
+    "resolvedAt": "2026-09-17T00:30:00.000Z",
+    "closedAt": "2026-09-17T00:30:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "facility",
+      "medium"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-16T22:30:00.000Z",
+    "updatedAt": "2026-09-17T00:30:00.000Z"
+  },
+  {
+    "id": "01HRX1031INCIDENTTEST31",
+    "tenantId": "north-hub",
+    "title": "Outbound label printer printing blurry barcodes",
+    "description": "Thermal head needs cleaning on printer 3.",
+    "status": "RESOLVED",
+    "category": "OPERATIONS",
+    "severity": "LOW",
+    "priorityScore": 28,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 28,
+        "normalisedValue": 28,
+        "weight": 0.3,
+        "contribution": 8.4,
+        "explanation": "Calculated contribution for OPERATIONS incident of LOW severity"
+      },
+      "safetyRisk": {
+        "rawValue": 28,
+        "normalisedValue": 28,
+        "weight": 0.25,
+        "contribution": 7,
+        "explanation": "Calculated contribution for OPERATIONS incident of LOW severity"
+      },
+      "slaUrgency": {
+        "rawValue": 28,
+        "normalisedValue": 28,
+        "weight": 0.2,
+        "contribution": 5.6,
+        "explanation": "Calculated contribution for OPERATIONS incident of LOW severity"
+      },
+      "recurrence": {
+        "rawValue": 28,
+        "normalisedValue": 28,
+        "weight": 0.15,
+        "contribution": 4.2,
+        "explanation": "Calculated contribution for OPERATIONS incident of LOW severity"
+      },
+      "downtime": {
+        "rawValue": 28,
+        "normalisedValue": 28,
+        "weight": 0.1,
+        "contribution": 2.8,
+        "explanation": "Calculated contribution for OPERATIONS incident of LOW severity"
+      },
+      "total": 28
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": null,
+    "locationId": "LOC-DOCK-4",
+    "assignedTeamId": "TEAM-LOGISTICS",
+    "ackDueAt": "2026-09-16T23:30:00.000Z",
+    "resolveDueAt": "2026-09-17T04:30:00.000Z",
+    "acknowledgedAt": "2026-09-16T22:45:00.000Z",
+    "resolvedAt": "2026-09-16T23:05:00.000Z",
+    "closedAt": "2026-09-16T23:05:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "operations",
+      "low"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-16T22:30:00.000Z",
+    "updatedAt": "2026-09-16T23:05:00.000Z"
+  },
+  {
+    "id": "01HRX1032INCIDENTTEST32",
+    "tenantId": "north-hub",
+    "title": "Trash compactor door interlock switch loose",
+    "description": "Safety switch intermittent when closing heavy bin lid.",
+    "status": "RESOLVED",
+    "category": "SAFETY",
+    "severity": "HIGH",
+    "priorityScore": 77,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 77,
+        "normalisedValue": 77,
+        "weight": 0.3,
+        "contribution": 23.1,
+        "explanation": "Calculated contribution for SAFETY incident of HIGH severity"
+      },
+      "safetyRisk": {
+        "rawValue": 77,
+        "normalisedValue": 77,
+        "weight": 0.25,
+        "contribution": 19.25,
+        "explanation": "Calculated contribution for SAFETY incident of HIGH severity"
+      },
+      "slaUrgency": {
+        "rawValue": 77,
+        "normalisedValue": 77,
+        "weight": 0.2,
+        "contribution": 15.4,
+        "explanation": "Calculated contribution for SAFETY incident of HIGH severity"
+      },
+      "recurrence": {
+        "rawValue": 77,
+        "normalisedValue": 77,
+        "weight": 0.15,
+        "contribution": 11.55,
+        "explanation": "Calculated contribution for SAFETY incident of HIGH severity"
+      },
+      "downtime": {
+        "rawValue": 77,
+        "normalisedValue": 77,
+        "weight": 0.1,
+        "contribution": 7.7,
+        "explanation": "Calculated contribution for SAFETY incident of HIGH severity"
+      },
+      "total": 77
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": null,
+    "locationId": "LOC-LOADING-BAY",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-09-17T10:50:00.000Z",
+    "resolveDueAt": "2026-09-17T12:30:00.000Z",
+    "acknowledgedAt": "2026-09-17T10:44:00.000Z",
+    "resolvedAt": "2026-09-17T11:30:00.000Z",
+    "closedAt": "2026-09-17T11:30:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "safety",
+      "high"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-17T10:30:00.000Z",
+    "updatedAt": "2026-09-17T11:30:00.000Z"
+  },
+  {
+    "id": "01HRX1033INCIDENTTEST33",
+    "tenantId": "north-hub",
+    "title": "Pick cart caster wheel locked up with tape",
+    "description": "Cart dragging and damaging floor epoxy finish.",
+    "status": "RESOLVED",
+    "category": "EQUIPMENT",
+    "severity": "LOW",
+    "priorityScore": 24,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 24,
+        "normalisedValue": 24,
+        "weight": 0.3,
+        "contribution": 7.2,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "safetyRisk": {
+        "rawValue": 24,
+        "normalisedValue": 24,
+        "weight": 0.25,
+        "contribution": 6,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "slaUrgency": {
+        "rawValue": 24,
+        "normalisedValue": 24,
+        "weight": 0.2,
+        "contribution": 4.8,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "recurrence": {
+        "rawValue": 24,
+        "normalisedValue": 24,
+        "weight": 0.15,
+        "contribution": 3.6,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "downtime": {
+        "rawValue": 24,
+        "normalisedValue": 24,
+        "weight": 0.1,
+        "contribution": 2.4,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "total": 24
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": null,
+    "locationId": "LOC-PICK-2",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-09-17T18:42:00.000Z",
+    "resolveDueAt": "2026-09-17T23:42:00.000Z",
+    "acknowledgedAt": "2026-09-17T18:07:00.000Z",
+    "resolvedAt": "2026-09-17T18:22:00.000Z",
+    "closedAt": "2026-09-17T18:22:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "equipment",
+      "low"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-17T17:42:00.000Z",
+    "updatedAt": "2026-09-17T18:22:00.000Z"
+  },
+  {
+    "id": "01HRX1034INCIDENTTEST34",
+    "tenantId": "north-hub",
+    "title": "Loading bay rollup door 1 sensor blinded by direct sunlight",
+    "description": "Photoeye sensor fails to register close command in evening.",
+    "status": "RESOLVED",
+    "category": "FACILITY",
+    "severity": "LOW",
+    "priorityScore": 32,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 32,
+        "normalisedValue": 32,
+        "weight": 0.3,
+        "contribution": 9.6,
+        "explanation": "Calculated contribution for FACILITY incident of LOW severity"
+      },
+      "safetyRisk": {
+        "rawValue": 32,
+        "normalisedValue": 32,
+        "weight": 0.25,
+        "contribution": 8,
+        "explanation": "Calculated contribution for FACILITY incident of LOW severity"
+      },
+      "slaUrgency": {
+        "rawValue": 32,
+        "normalisedValue": 32,
+        "weight": 0.2,
+        "contribution": 6.4,
+        "explanation": "Calculated contribution for FACILITY incident of LOW severity"
+      },
+      "recurrence": {
+        "rawValue": 32,
+        "normalisedValue": 32,
+        "weight": 0.15,
+        "contribution": 4.8,
+        "explanation": "Calculated contribution for FACILITY incident of LOW severity"
+      },
+      "downtime": {
+        "rawValue": 32,
+        "normalisedValue": 32,
+        "weight": 0.1,
+        "contribution": 3.2,
+        "explanation": "Calculated contribution for FACILITY incident of LOW severity"
+      },
+      "total": 32
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": null,
+    "locationId": "LOC-LOADING-BAY",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-09-17T23:30:00.000Z",
+    "resolveDueAt": "2026-09-18T04:30:00.000Z",
+    "acknowledgedAt": "2026-09-17T23:05:00.000Z",
+    "resolvedAt": "2026-09-18T00:00:00.000Z",
+    "closedAt": "2026-09-18T00:00:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "facility",
+      "low"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-17T22:30:00.000Z",
+    "updatedAt": "2026-09-18T00:00:00.000Z"
+  },
+  {
+    "id": "01HRX1035INCIDENTTEST35",
+    "tenantId": "north-hub",
+    "title": "Chemical solvent smell reported near maintenance bench",
+    "description": "Degreaser can left unsealed overnight.",
+    "status": "RESOLVED",
+    "category": "ENVIRONMENTAL",
+    "severity": "LOW",
+    "priorityScore": 38,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 38,
+        "normalisedValue": 38,
+        "weight": 0.3,
+        "contribution": 11.4,
+        "explanation": "Calculated contribution for ENVIRONMENTAL incident of LOW severity"
+      },
+      "safetyRisk": {
+        "rawValue": 38,
+        "normalisedValue": 38,
+        "weight": 0.25,
+        "contribution": 9.5,
+        "explanation": "Calculated contribution for ENVIRONMENTAL incident of LOW severity"
+      },
+      "slaUrgency": {
+        "rawValue": 38,
+        "normalisedValue": 38,
+        "weight": 0.2,
+        "contribution": 7.6,
+        "explanation": "Calculated contribution for ENVIRONMENTAL incident of LOW severity"
+      },
+      "recurrence": {
+        "rawValue": 38,
+        "normalisedValue": 38,
+        "weight": 0.15,
+        "contribution": 5.7,
+        "explanation": "Calculated contribution for ENVIRONMENTAL incident of LOW severity"
+      },
+      "downtime": {
+        "rawValue": 38,
+        "normalisedValue": 38,
+        "weight": 0.1,
+        "contribution": 3.8,
+        "explanation": "Calculated contribution for ENVIRONMENTAL incident of LOW severity"
+      },
+      "total": 38
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": null,
+    "locationId": "LOC-LOADING-BAY",
+    "assignedTeamId": "TEAM-SAFETY",
+    "ackDueAt": "2026-09-18T04:18:00.000Z",
+    "resolveDueAt": "2026-09-18T09:18:00.000Z",
+    "acknowledgedAt": "2026-09-18T03:30:00.000Z",
+    "resolvedAt": "2026-09-18T03:48:00.000Z",
+    "closedAt": "2026-09-18T03:48:00.000Z",
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "environmental",
+      "low"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-18T03:18:00.000Z",
+    "updatedAt": "2026-09-18T03:48:00.000Z"
+  },
+  {
+    "id": "01HRX1036INCIDENTTEST36",
+    "tenantId": "north-hub",
+    "title": "Forklift FL-01 backup beeper volume too low",
+    "description": "Audible reverse alarm muffled, failing warehouse dB guidelines.",
+    "status": "ACKNOWLEDGED",
+    "category": "SAFETY",
+    "severity": "MEDIUM",
+    "priorityScore": 66,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 66,
+        "normalisedValue": 66,
+        "weight": 0.3,
+        "contribution": 19.8,
+        "explanation": "Calculated contribution for SAFETY incident of MEDIUM severity"
+      },
+      "safetyRisk": {
+        "rawValue": 66,
+        "normalisedValue": 66,
+        "weight": 0.25,
+        "contribution": 16.5,
+        "explanation": "Calculated contribution for SAFETY incident of MEDIUM severity"
+      },
+      "slaUrgency": {
+        "rawValue": 66,
+        "normalisedValue": 66,
+        "weight": 0.2,
+        "contribution": 13.2,
+        "explanation": "Calculated contribution for SAFETY incident of MEDIUM severity"
+      },
+      "recurrence": {
+        "rawValue": 66,
+        "normalisedValue": 66,
+        "weight": 0.15,
+        "contribution": 9.9,
+        "explanation": "Calculated contribution for SAFETY incident of MEDIUM severity"
+      },
+      "downtime": {
+        "rawValue": 66,
+        "normalisedValue": 66,
+        "weight": 0.1,
+        "contribution": 6.6,
+        "explanation": "Calculated contribution for SAFETY incident of MEDIUM severity"
+      },
+      "total": 66
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": "FL-01",
+    "locationId": "LOC-LOADING-BAY",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-09-18T11:30:00.000Z",
+    "resolveDueAt": "2026-09-18T16:30:00.000Z",
+    "acknowledgedAt": "2026-09-18T10:45:00.000Z",
+    "resolvedAt": null,
+    "closedAt": null,
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "safety",
+      "medium"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-18T10:30:00.000Z",
+    "updatedAt": "2026-09-18T10:45:00.000Z"
+  },
+  {
+    "id": "01HRX1037INCIDENTTEST37",
+    "tenantId": "north-hub",
+    "title": "Pallet staging congestion blocking access to Dock 3",
+    "description": "Pallet overflow from morning receipt blocking lane.",
+    "status": "IN_PROGRESS",
+    "category": "OPERATIONS",
+    "severity": "MEDIUM",
+    "priorityScore": 54,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 54,
+        "normalisedValue": 54,
+        "weight": 0.3,
+        "contribution": 16.2,
+        "explanation": "Calculated contribution for OPERATIONS incident of MEDIUM severity"
+      },
+      "safetyRisk": {
+        "rawValue": 54,
+        "normalisedValue": 54,
+        "weight": 0.25,
+        "contribution": 13.5,
+        "explanation": "Calculated contribution for OPERATIONS incident of MEDIUM severity"
+      },
+      "slaUrgency": {
+        "rawValue": 54,
+        "normalisedValue": 54,
+        "weight": 0.2,
+        "contribution": 10.8,
+        "explanation": "Calculated contribution for OPERATIONS incident of MEDIUM severity"
+      },
+      "recurrence": {
+        "rawValue": 54,
+        "normalisedValue": 54,
+        "weight": 0.15,
+        "contribution": 8.1,
+        "explanation": "Calculated contribution for OPERATIONS incident of MEDIUM severity"
+      },
+      "downtime": {
+        "rawValue": 54,
+        "normalisedValue": 54,
+        "weight": 0.1,
+        "contribution": 5.4,
+        "explanation": "Calculated contribution for OPERATIONS incident of MEDIUM severity"
+      },
+      "total": 54
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": null,
+    "locationId": "LOC-DOCK-3",
+    "assignedTeamId": "TEAM-LOGISTICS",
+    "ackDueAt": "2026-09-18T13:54:00.000Z",
+    "resolveDueAt": "2026-09-18T18:54:00.000Z",
+    "acknowledgedAt": "2026-09-18T13:04:00.000Z",
+    "resolvedAt": null,
+    "closedAt": null,
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "operations",
+      "medium"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-18T12:54:00.000Z",
+    "updatedAt": "2026-09-18T13:04:00.000Z"
+  },
+  {
+    "id": "01HRX1038INCIDENTTEST38",
+    "tenantId": "north-hub",
+    "title": "Dock 2 leveler hydraulic pump overheating",
+    "description": "Motor casing hot to touch after servicing 4 consecutive semi trucks.",
+    "status": "ROUTED",
+    "category": "EQUIPMENT",
+    "severity": "HIGH",
+    "priorityScore": 80,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 80,
+        "normalisedValue": 80,
+        "weight": 0.3,
+        "contribution": 24,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "safetyRisk": {
+        "rawValue": 80,
+        "normalisedValue": 80,
+        "weight": 0.25,
+        "contribution": 20,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "slaUrgency": {
+        "rawValue": 80,
+        "normalisedValue": 80,
+        "weight": 0.2,
+        "contribution": 16,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "recurrence": {
+        "rawValue": 80,
+        "normalisedValue": 80,
+        "weight": 0.15,
+        "contribution": 12,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "downtime": {
+        "rawValue": 80,
+        "normalisedValue": 80,
+        "weight": 0.1,
+        "contribution": 8,
+        "explanation": "Calculated contribution for EQUIPMENT incident of HIGH severity"
+      },
+      "total": 80
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": "DOCK-LEV-D2",
+    "locationId": "LOC-DOCK-2",
+    "assignedTeamId": "TEAM-MAINT",
+    "ackDueAt": "2026-09-18T15:38:00.000Z",
+    "resolveDueAt": "2026-09-18T17:18:00.000Z",
+    "acknowledgedAt": null,
+    "resolvedAt": null,
+    "closedAt": null,
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "equipment",
+      "high"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-18T15:18:00.000Z",
+    "updatedAt": "2026-09-18T15:18:00.000Z"
+  },
+  {
+    "id": "01HRX1039INCIDENTTEST39",
+    "tenantId": "north-hub",
+    "title": "Pallet shrink wrap spool spindle bent in packing zone",
+    "description": "Manual wrap dispenser jammed and difficult to unroll.",
+    "status": "NEW",
+    "category": "EQUIPMENT",
+    "severity": "LOW",
+    "priorityScore": 28,
+    "scoreBreakdown": {
+      "businessImpact": {
+        "rawValue": 28,
+        "normalisedValue": 28,
+        "weight": 0.3,
+        "contribution": 8.4,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "safetyRisk": {
+        "rawValue": 28,
+        "normalisedValue": 28,
+        "weight": 0.25,
+        "contribution": 7,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "slaUrgency": {
+        "rawValue": 28,
+        "normalisedValue": 28,
+        "weight": 0.2,
+        "contribution": 5.6,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "recurrence": {
+        "rawValue": 28,
+        "normalisedValue": 28,
+        "weight": 0.15,
+        "contribution": 4.2,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "downtime": {
+        "rawValue": 28,
+        "normalisedValue": 28,
+        "weight": 0.1,
+        "contribution": 2.8,
+        "explanation": "Calculated contribution for EQUIPMENT incident of LOW severity"
+      },
+      "total": 28
+    },
+    "confidence": 0.92,
+    "triageMode": "AI",
+    "assetId": null,
+    "locationId": "LOC-PICK-1",
+    "assignedTeamId": null,
+    "ackDueAt": "2026-09-18T18:42:00.000Z",
+    "resolveDueAt": "2026-09-18T23:42:00.000Z",
+    "acknowledgedAt": null,
+    "resolvedAt": null,
+    "closedAt": null,
+    "reporterId": "usr-north-worker",
+    "tags": [
+      "equipment",
+      "low"
+    ],
+    "metadata": {
+      "source": "seed-generator"
+    },
+    "createdAt": "2026-09-18T17:42:00.000Z",
+    "updatedAt": "2026-09-18T17:42:00.000Z"
+  }
+]

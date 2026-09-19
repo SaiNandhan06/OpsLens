@@ -1,0 +1,7 @@
+node_modules
+dist
+build
+.aws-sam
+.localstack
+coverage
+*.log

@@ -1,0 +1,53 @@
+namespace OpsLens {
+  entity User = {
+    "tenantId": String,
+    "role": String
+  };
+
+  entity Incident = {
+    "tenantId": String
+  };
+
+  entity Dashboard = {
+    "tenantId": String
+  };
+
+  entity Config = {
+    "tenantId": String
+  };
+
+  entity Recommendation = {
+    "tenantId": String
+  };
+
+  entity Copilot = {
+    "tenantId": String
+  };
+
+  entity Admin = {
+    "tenantId": String
+  };
+
+  action createIncident appliesTo { principal: [User], resource: [Incident] };
+  action listIncidents appliesTo { principal: [User], resource: [Incident] };
+  action getIncident appliesTo { principal: [User], resource: [Incident] };
+  action patchIncident appliesTo { principal: [User], resource: [Incident] };
+  action addComment appliesTo { principal: [User], resource: [Incident] };
+  action mergeIncident appliesTo { principal: [User], resource: [Incident] };
+  action answerClarification appliesTo { principal: [User], resource: [Incident] };
+  action getPresignedUploadUrl appliesTo { principal: [User], resource: [Incident] };
+
+  action getDashboardSummary appliesTo { principal: [User], resource: [Dashboard] };
+  action getHotspots appliesTo { principal: [User], resource: [Dashboard] };
+
+  action getConfig appliesTo { principal: [User], resource: [Config] };
+  action updateScoringWeights appliesTo { principal: [User], resource: [Config] };
+  action updateSlaPolicies appliesTo { principal: [User], resource: [Config] };
+  action getReferenceData appliesTo { principal: [User], resource: [Config] };
+
+  action getRecommendations appliesTo { principal: [User], resource: [Recommendation] };
+  action queryCopilot appliesTo { principal: [User], resource: [Copilot] };
+
+  action resetDemo appliesTo { principal: [User], resource: [Admin] };
+  action seedDemo appliesTo { principal: [User], resource: [Admin] };
+}

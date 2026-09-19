@@ -1,0 +1,82 @@
+[
+  {
+    "id": "usr-north-worker",
+    "tenantId": "north-hub",
+    "role": "worker",
+    "name": "Arun Kumar",
+    "email": "worker@north-hub.opslens.internal",
+    "active": true
+  },
+  {
+    "id": "usr-north-maint",
+    "tenantId": "north-hub",
+    "role": "maintenance",
+    "name": "Rajesh Sharma",
+    "email": "maintenance@north-hub.opslens.internal",
+    "active": true
+  },
+  {
+    "id": "usr-north-sup",
+    "tenantId": "north-hub",
+    "role": "supervisor",
+    "name": "Priya Nair",
+    "email": "supervisor@north-hub.opslens.internal",
+    "active": true
+  },
+  {
+    "id": "usr-north-mgr",
+    "tenantId": "north-hub",
+    "role": "manager",
+    "name": "Vikram Mehta",
+    "email": "manager@north-hub.opslens.internal",
+    "active": true
+  },
+  {
+    "id": "usr-north-admin",
+    "tenantId": "north-hub",
+    "role": "admin",
+    "name": "Siddharth Sen",
+    "email": "admin@north-hub.opslens.internal",
+    "active": true
+  },
+  {
+    "id": "usr-south-worker",
+    "tenantId": "south-hub",
+    "role": "worker",
+    "name": "Suresh Babu",
+    "email": "worker@south-hub.opslens.internal",
+    "active": true
+  },
+  {
+    "id": "usr-south-maint",
+    "tenantId": "south-hub",
+    "role": "maintenance",
+    "name": "Karthik Raja",
+    "email": "maintenance@south-hub.opslens.internal",
+    "active": true
+  },
+  {
+    "id": "usr-south-sup",
+    "tenantId": "south-hub",
+    "role": "supervisor",
+    "name": "Ananya Reddy",
+    "email": "supervisor@south-hub.opslens.internal",
+    "active": true
+  },
+  {
+    "id": "usr-south-mgr",
+    "tenantId": "south-hub",
+    "role": "manager",
+    "name": "Deepak Rao",
+    "email": "manager@south-hub.opslens.internal",
+    "active": true
+  },
+  {
+    "id": "usr-south-admin",
+    "tenantId": "south-hub",
+    "role": "admin",
+    "name": "Manoj Verma",
+    "email": "admin@south-hub.opslens.internal",
+    "active": true
+  }
+]

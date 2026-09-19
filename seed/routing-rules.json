@@ -1,0 +1,70 @@
+[
+  {
+    "id": "ROUTE-CONV-D4",
+    "priority": 1,
+    "name": "Dock 4 Conveyor Critical Routing",
+    "conditions": {
+      "assetId": "CONV-D4"
+    },
+    "targetTeamId": "TEAM-MAINT",
+    "reason": "Asset CONV-D4 is high-criticality conveyor reserved for direct engineering dispatch"
+  },
+  {
+    "id": "ROUTE-EQUIPMENT-DEFAULT",
+    "priority": 10,
+    "name": "Equipment Maintenance Default",
+    "conditions": {
+      "category": "EQUIPMENT"
+    },
+    "targetTeamId": "TEAM-MAINT",
+    "reason": "Route equipment failures directly to Maintenance team"
+  },
+  {
+    "id": "ROUTE-FACILITY-DEFAULT",
+    "priority": 11,
+    "name": "Facility Infrastructure Default",
+    "conditions": {
+      "category": "FACILITY"
+    },
+    "targetTeamId": "TEAM-MAINT",
+    "reason": "Route physical structure and utility failures to Maintenance team"
+  },
+  {
+    "id": "ROUTE-SAFETY-DEFAULT",
+    "priority": 12,
+    "name": "Safety & Environmental Incidents",
+    "conditions": {
+      "category": "SAFETY"
+    },
+    "targetTeamId": "TEAM-SAFETY",
+    "reason": "Route worker safety risks and hazards to EHS team"
+  },
+  {
+    "id": "ROUTE-INVENTORY-DEFAULT",
+    "priority": 13,
+    "name": "Inventory Damage & Spills",
+    "conditions": {
+      "category": "INVENTORY"
+    },
+    "targetTeamId": "TEAM-INVENTORY",
+    "reason": "Route damaged stock and item spills to Inventory QA"
+  },
+  {
+    "id": "ROUTE-OPERATIONS-DEFAULT",
+    "priority": 14,
+    "name": "Operational Bottlenecks",
+    "conditions": {
+      "category": "OPERATIONS"
+    },
+    "targetTeamId": "TEAM-LOGISTICS",
+    "reason": "Route shipping delays and flow disruptions to Logistics Operations"
+  },
+  {
+    "id": "ROUTE-FALLBACK",
+    "priority": 99,
+    "name": "Default Fallback Team",
+    "conditions": {},
+    "targetTeamId": "TEAM-LOGISTICS",
+    "reason": "Default catch-all routing rule when no specific policy triggers"
+  }
+]

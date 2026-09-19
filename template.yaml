@@ -1,0 +1,388 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: OpsLens - Unstructured warehouse incident triage platform
+
+Globals:
+  Function:
+    Timeout: 30
+    MemorySize: 256
+    Runtime: nodejs20.x
+    Architectures:
+      - arm64
+    Environment:
+      Variables:
+        STAGE: !Ref Stage
+        TABLE_NAME: !Ref TableName
+        MEDIA_BUCKET: !Ref MediaBucket
+        EVENT_BUS_NAME: !Ref EventBusName
+        LLM_PROVIDER: !Ref LlmProvider
+        LOG_LEVEL: !Ref LogLevel
+
+Parameters:
+  Stage:
+    Type: String
+    Default: local
+  TableName:
+    Type: String
+    Default: opslens-local
+  MediaBucket:
+    Type: String
+    Default: opslens-media-local
+  EventBusName:
+    Type: String
+    Default: opslens-events-local
+  LlmProvider:
+    Type: String
+    Default: mock
+  LogLevel:
+    Type: String
+    Default: debug
+  WebOrigin:
+    Type: String
+    Default: '*'
+
+Resources:
+  OpsLensTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: !Ref TableName
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: PK
+          AttributeType: S
+        - AttributeName: SK
+          AttributeType: S
+        - AttributeName: gsi1pk
+          AttributeType: S
+        - AttributeName: gsi1sk
+          AttributeType: S
+        - AttributeName: gsi2pk
+          AttributeType: S
+        - AttributeName: gsi2sk
+          AttributeType: S
+        - AttributeName: gsi3pk
+          AttributeType: S
+        - AttributeName: gsi3sk
+          AttributeType: S
+        - AttributeName: gsi4pk
+          AttributeType: S
+        - AttributeName: gsi4sk
+          AttributeType: S
+      KeySchema:
+        - AttributeName: PK
+          KeyType: HASH
+        - AttributeName: SK
+          KeyType: RANGE
+      GlobalSecondaryIndexes:
+        - IndexName: GSI1
+          KeySchema:
+            - AttributeName: gsi1pk
+              KeyType: HASH
+            - AttributeName: gsi1sk
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+        - IndexName: GSI2
+          KeySchema:
+            - AttributeName: gsi2pk
+              KeyType: HASH
+            - AttributeName: gsi2sk
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+        - IndexName: GSI3
+          KeySchema:
+            - AttributeName: gsi3pk
+              KeyType: HASH
+            - AttributeName: gsi3sk
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+        - IndexName: GSI4
+          KeySchema:
+            - AttributeName: gsi4pk
+              KeyType: HASH
+            - AttributeName: gsi4sk
+              KeyType: RANGE
+          Projection:
+            ProjectionType: ALL
+
+  OpsLensEventBus:
+    Type: AWS::Events::EventBus
+    Properties:
+      Name: !Ref EventBusName
+
+  OpsLensMediaBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref MediaBucket
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      CorsConfiguration:
+        CorsRules:
+          - Id: AllowPutFromWebOrigin
+            AllowedHeaders:
+              - '*'
+            AllowedMethods:
+              - PUT
+            AllowedOrigins:
+              - !Ref WebOrigin
+            MaxAge: 3600
+      LifecycleConfiguration:
+        Rules:
+          - Id: DeleteStagingUploadsAfter1Day
+            Status: Enabled
+            ExpirationInDays: 1
+            Prefix: staging/
+
+  OpsLensUserPool:
+    Type: AWS::Cognito::UserPool
+    Properties:
+      UserPoolName: !Sub opslens-users-${Stage}
+      UsernameAttributes:
+        - email
+      AutoVerifiedAttributes:
+        - email
+      Schema:
+        - Name: tenantId
+          AttributeDataType: String
+          Mutable: true
+          Required: false
+      Policies:
+        PasswordPolicy:
+          MinimumLength: 8
+          RequireLowercase: true
+          RequireNumbers: true
+          RequireSymbols: false
+          RequireUppercase: true
+
+  OpsLensGroupWorker:
+    Type: AWS::Cognito::UserPoolGroup
+    Properties:
+      GroupName: worker
+      UserPoolId: !Ref OpsLensUserPool
+
+  OpsLensGroupMaintenance:
+    Type: AWS::Cognito::UserPoolGroup
+    Properties:
+      GroupName: maintenance
+      UserPoolId: !Ref OpsLensUserPool
+
+  OpsLensGroupSupervisor:
+    Type: AWS::Cognito::UserPoolGroup
+    Properties:
+      GroupName: supervisor
+      UserPoolId: !Ref OpsLensUserPool
+
+  OpsLensGroupManager:
+    Type: AWS::Cognito::UserPoolGroup
+    Properties:
+      GroupName: manager
+      UserPoolId: !Ref OpsLensUserPool
+
+  OpsLensGroupAdmin:
+    Type: AWS::Cognito::UserPoolGroup
+    Properties:
+      GroupName: admin
+      UserPoolId: !Ref OpsLensUserPool
+
+  OpsLensSpaClient:
+    Type: AWS::Cognito::UserPoolClient
+    Properties:
+      ClientName: !Sub opslens-spa-client-${Stage}
+      UserPoolId: !Ref OpsLensUserPool
+      GenerateSecret: false
+      ExplicitAuthFlows:
+        - ALLOW_USER_SRP_AUTH
+        - ALLOW_REFRESH_TOKEN_AUTH
+        - ALLOW_USER_PASSWORD_AUTH
+
+  OpsLensApi:
+    Type: AWS::Serverless::Api
+    Properties:
+      StageName: !Ref Stage
+      Auth:
+        DefaultAuthorizer: LambdaRequestAuthorizer
+        Authorizers:
+          LambdaRequestAuthorizer:
+            FunctionArn: !GetAtt AuthorizerFunction.Arn
+            FunctionPayloadType: REQUEST
+            Identity:
+              Headers:
+                - Authorization
+              ReauthorizeEvery: 300
+
+  AuthorizerFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: services/authorizer/
+      Handler: dist/index.handler
+      Description: OpsLens Cedar Lambda request authorizer
+      Environment:
+        Variables:
+          USER_POOL_ID: !Ref OpsLensUserPool
+          CLIENT_ID: !Ref OpsLensSpaClient
+
+  ApiUploadsFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: services/api-uploads/
+      Handler: dist/index.handler
+      Description: OpsLens Presigned Uploads API
+      Policies:
+        - S3WritePolicy:
+            BucketName: !Ref MediaBucket
+      Events:
+        PresignUpload:
+          Type: Api
+          Properties:
+            RestApiId: !Ref OpsLensApi
+            Path: /v1/uploads/presign
+            Method: post
+
+  ApiIncidentsFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: services/api-incidents/
+      Handler: dist/index.handler
+      Description: OpsLens Incidents API (create, list, get)
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref TableName
+        - S3CrudPolicy:
+            BucketName: !Ref MediaBucket
+        - EventBridgePutEventsPolicy:
+            EventBusName: !Ref EventBusName
+      Events:
+        CreateIncident:
+          Type: Api
+          Properties:
+            RestApiId: !Ref OpsLensApi
+            Path: /v1/incidents
+            Method: post
+        ListIncidents:
+          Type: Api
+          Properties:
+            RestApiId: !Ref OpsLensApi
+            Path: /v1/incidents
+            Method: get
+        GetIncident:
+          Type: Api
+          Properties:
+            RestApiId: !Ref OpsLensApi
+            Path: /v1/incidents/{id}
+            Method: get
+        AnswerClarification:
+          Type: Api
+          Properties:
+            RestApiId: !Ref OpsLensApi
+            Path: /v1/incidents/{id}/answer
+            Method: post
+        UpdateIncident:
+          Type: Api
+          Properties:
+            RestApiId: !Ref OpsLensApi
+            Path: /v1/incidents/{id}
+            Method: patch
+        GetRelatedIncidents:
+          Type: Api
+          Properties:
+            RestApiId: !Ref OpsLensApi
+            Path: /v1/incidents/{id}/related
+            Method: get
+        MergeIncident:
+          Type: Api
+          Properties:
+            RestApiId: !Ref OpsLensApi
+            Path: /v1/incidents/{id}/merge
+            Method: post
+
+  WorkerTriageFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: services/worker-triage/
+      Handler: dist/index.handler
+      Description: OpsLens EventBridge consumer for incident triage
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref TableName
+        - S3ReadPolicy:
+            BucketName: !Ref MediaBucket
+        - EventBridgePutEventsPolicy:
+            EventBusName: !Ref EventBusName
+      Environment:
+        Variables:
+          DAILY_TOKEN_BUDGET: '200000'
+      Events:
+        IncidentCreatedEvent:
+          Type: EventBridgeRule
+          Properties:
+            EventBusName: !Ref OpsLensEventBus
+            Pattern:
+              source:
+                - opslens.incidents
+              detail-type:
+                - INCIDENT_CREATED
+
+  WorkerSlaSweeperFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: services/worker-sla-sweeper/
+      Handler: dist/index.handler
+      Description: Periodic 1-minute sweep of active SLA deadlines across tenants
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref TableName
+        - EventBridgePutEventsPolicy:
+            EventBusName: !Ref EventBusName
+      Events:
+        SweeperSchedule:
+          Type: Schedule
+          Properties:
+            Schedule: rate(1 minute)
+            Name: opslens-sla-sweeper-schedule
+            Description: Single scheduled rule for the whole system executing SLA sweep at rate(1 minute)
+
+  WorkerNotifierFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: services/worker-notifier/
+      Handler: dist/index.handler
+      Description: OpsLens EventBridge notification dispatcher (SNS)
+      Policies:
+        - DynamoDBCrudPolicy:
+            TableName: !Ref TableName
+        - SNSPublishMessagePolicy:
+            TopicName: !GetAtt OpsLensNotificationTopic.TopicName
+      Environment:
+        Variables:
+          NOTIFICATION_TOPIC_ARN: !Ref OpsLensNotificationTopic
+      Events:
+        NotificationEvents:
+          Type: EventBridgeRule
+          Properties:
+            EventBusName: !Ref OpsLensEventBus
+            Pattern:
+              source:
+                - opslens.incidents
+              detail-type:
+                - INCIDENT_ROUTED
+                - SLA_BREACHED
+                - INCIDENT_ESCALATED
+                - INCIDENT_NEEDS_INFO
+
+  OpsLensNotificationTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      TopicName: !Sub opslens-notifications-${Stage}
+
+
+
+

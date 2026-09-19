@@ -1,0 +1,12 @@
+version = 0.1
+
+[default]
+[default.global.parameters]
+stack_name = "opslens"
+
+[default.build.parameters]
+cached = true
+parallel = true
+
+[default.local_start_api.parameters]
+port = 3000

@@ -1,0 +1,18 @@
+{
+  "name": "@opslens/authorizer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@cedar-policy/cedar-wasm": "^4.13.0",
+    "@opslens/contracts": "workspace:*",
+    "jose": "^6.2.2"
+  }
+}

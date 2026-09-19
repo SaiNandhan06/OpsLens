@@ -1,0 +1,29 @@
+{
+  "name": "opslens-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r --if-present run build",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "dev:api": "sam local start-api",
+    "dev:web": "pnpm --filter @opslens/web dev",
+    "bootstrap:local": "node infra/scripts/bootstrap-local.mjs",
+    "seed:local": "tsx scripts/seed.ts"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-sqs": "^3.1135.0",
+    "@eslint/js": "^9.20.0",
+    "@types/node": "^22.13.4",
+    "eslint": "^9.20.1",
+    "eslint-config-prettier": "^10.0.1",
+    "globals": "^15.15.0",
+    "prettier": "^3.5.1",
+    "tsx": "^4.23.13",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.0",
+    "vitest": "^3.0.5"
+  }
+}

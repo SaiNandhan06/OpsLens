@@ -1,0 +1,46 @@
+[
+  {
+    "id": "TEAM-MAINT",
+    "name": "Maintenance & Facility Engineering",
+    "supervisorId": "usr-north-sup",
+    "shiftPattern": "24x7_ROTATIONAL",
+    "skills": [
+      "EQUIPMENT",
+      "FACILITY"
+    ],
+    "contactRadioChannel": "CH-3"
+  },
+  {
+    "id": "TEAM-SAFETY",
+    "name": "EHS & Warehouse Safety",
+    "supervisorId": "usr-north-sup",
+    "shiftPattern": "STANDARD_DAY",
+    "skills": [
+      "SAFETY",
+      "ENVIRONMENTAL",
+      "SECURITY"
+    ],
+    "contactRadioChannel": "CH-1"
+  },
+  {
+    "id": "TEAM-INVENTORY",
+    "name": "Inventory Control & Quality Assurance",
+    "supervisorId": "usr-north-sup",
+    "shiftPattern": "TWO_SHIFT",
+    "skills": [
+      "INVENTORY",
+      "OPERATIONS"
+    ],
+    "contactRadioChannel": "CH-4"
+  },
+  {
+    "id": "TEAM-LOGISTICS",
+    "name": "Outbound Logistics & Dispatch Operations",
+    "supervisorId": "usr-north-sup",
+    "shiftPattern": "TWO_SHIFT",
+    "skills": [
+      "OPERATIONS"
+    ],
+    "contactRadioChannel": "CH-2"
+  }
+]
